@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="menu" version="4.5.2">
+	<name>Table - Content Section</name>
+	<group>Content</group>
+	<author>Mambo Project</author>
+	<creationDate>July 2004</creationDate>
+	<copyright>(C) 2000 - 2005 Miro International Pty Ltd</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>admin@mamboserver.com</authorEmail>
+	<authorUrl>www.mamboserver.com</authorUrl>
+	<version>4.5.2</version>
+	<description>Creates a listing of Content categories for a particular section</description>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Menu Image" description="A small image to be placed to the left or right of your menu item, images must be in images/stories/" />
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Page Class Suffix" description="A suffix to be applied to the css classes of the page, this allows individual page styling" />
+		<param name="back_button" type="list" default="" label="Back Button" description="Show/Hide a Back Button, that returns you to the previously view page">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="page_title" type="radio" default="1" label="Page Title" description="Show/Hide the Page title">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="description" type="radio" default="0" label="Description" description="Show/Hide the Section Description">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="description_image" type="radio" default="0" label="Description Image" description="Show/Hide image of the Section Description">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="categorylist" type="radio" default="1" label="Category List" description="Show/Hide the category list of section">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+ 		<param name="categoryitems" type="radio" default="0" label="Category Item Count" description="Show/Hide the item count of category">
+ 			<option value="0">Hide</option>
+ 			<option value="1">Show</option>
+ 		</param>
+		<param name="categoriesperrow" type="text" size="3" default="2" label="Categories per Row" description="Number of categories to display per row" />
+		<param name="categoryitemlist" type="radio" default="1" label="Item List of Category" description="Show/Hide the item list of category">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="itemcount" type="text" size="3" default="5" label="Item Count" description="The number of items to display in the item list of category(default is 5)" />
+		<param name="titlelength" type="text" size="3" default="40" label="Title Length" description="The max length of item title in chars to display, Default 40" />
+		<param name="datedisplay" type="list" default="0" label="Date Display" description="The display of item created date">
+			<option value="0">None</option>
+			<option value="m-d">mm-dd</option>
+			<option value="m-d H:i">mm-dd hh:mm</option>
+			<option value="y-m-d">yy-mm-dd</option>
+			<option value="Y-m-d">yyyy-mm-dd</option>
+			<option value="H:i">hh:mm</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="sectionitemlist" type="radio" default="0" label="Item List of Section" description="Show/Hide the item list of section">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="orderby" type="list" default="rdate" label="Items Order" description="Order that the items will be displayed in.">
+			<option value="date">Oldest first</option>
+			<option value="rdate">Most recent first</option>
+			<option value="alpha">Title Alphabetical</option>
+			<option value="ralpha">Title Reverse-Alphabetical</option>
+			<option value="author">Author Alphabetical</option>
+			<option value="rauthor">Author Reverse-Alphabetical</option>
+			<option value="hits">Most Hits</option>
+			<option value="rhits">Least Hits</option>
+			<option value="order">Ordering</option>
+		</param>
+		<param name="author" type="list" default="" label="Author Column" description="Show/Hide the Author column">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="date" type="list" default="" label="Date Column" description="Show/Hide the Date column">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="date_format" type="text" size="15" default="" label="Date Format" description="The format of the date displayed, using PHPs strftime Command Format - if left blank it will load the format from your language file" />
+		<param name="hits" type="list" default="" label="Hits Column" description="Show/Hide the Hits column">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="headings" type="radio" default="1" label="Table Headings" description="Show/Hide the Table Headings">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="navigation" type="radio" default="1" label="Navigation Bar" description="Show/Hide the Navigation bar">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="display_num" type="list" default="" label="Display Number" description="Number of items to be displayed by default">
+			<option value="">Use Global</option>
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="50">50</option>
+		</param>
+		<param name="target" type="list" default="0" label="Target" description="Target window when the link is clicked">
+			<option value="0">Parent Window With Browser Navigation</option>
+			<option value="1">New Window With Browser Navigation</option>
+		</param>
+	</params>
+</mosinstall>

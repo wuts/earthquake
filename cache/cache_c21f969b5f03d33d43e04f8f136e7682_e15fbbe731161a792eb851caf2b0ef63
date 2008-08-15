@@ -1,0 +1,151 @@
+                      1845929132<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rss [<!ENTITY % HTMLlat1 PUBLIC "-//W3C//ENTITIES Latin 1 for XHTML//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">]>
+<rss version="2.0" xml:base="http://evolt.org">
+<channel>
+ <title>evolt.org - Workers of the Web, Evolt!</title>
+ <link>http://evolt.org</link>
+ <description>&lt;!-- &lt;h2&gt;&lt;a href=&quot;http://evolt.org/&quot;&gt;Welcome to evolt.org&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;We are a community of like minded people, web professionals, promoting the mutual free exchange of ideas, skills and experiences. To this end we run several mailing lists including &#039;&lt;a href=&quot;http://lists.evolt.org/mailman/listinfo/thelist&quot;&gt;thelist&lt;/a&gt;&#039; a vibrant mailing list with thousands of members. If you have a question related to any aspect of web development you can join &lt;a href=&quot;http://lists.evolt.org/mailman/listinfo/thelist&quot;&gt;thelist&lt;/a&gt; right now and become a part of the community.&lt;/p&gt;
+
+&lt;p&gt;Our members also write articles for our website (this one). You can be a part of this community. All you have to do is click on &#039;&lt;a href=&quot;http://evolt.org/user/register&quot;&gt;register&lt;/a&gt;&#039; above. Once you have registered you can submit comments or articles to the website.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in helping behind the scenes then join &#039;&lt;a href=&quot;http://lists.evolt.org/mailman/listinfo/theforum&quot;&gt;theforum&lt;/a&gt;&#039; another evolt mailing list dedicated to the running of evolt.org&lt;/p&gt;
+&lt;hr /&gt; --&gt;</description>
+ <language>en-GB</language>
+<item>
+ <title>A Very Simple and Effective Captcha</title>
+ <link>http://evolt.org/simple-captcha</link>
+ <description>&lt;p&gt;I have a very simple anti-bot spam technique that works extremely well. It requires no javascript, cookies or complicated server weirdness, is fully accessible, has no hidden fields, has negligible overhead and takes just a moment or two to implement. It requires that the user fill out one field with a number, so it&#039;s good for anti-bot but will not prevent human spammers. In three years, I have yet to receive &lt;em&gt;any&lt;/em&gt; spam on any of the many sites that I have installed this on. Sites that were being bombarded with hundreds of spams daily suddenly became quiet and good emails get though.&lt;/p&gt;</description>
+ <category domain="http://evolt.org/code">Code</category>
+ <pubDate>Sun, 09 Mar 2008 05:09:24 -0500</pubDate>
+</item>
+<item>
+ <title>Simulating Apache asis feature with very simple CGI</title>
+ <link>http://evolt.org/node/60864</link>
+ <description>Apache&#039;s asis feature, provided by &lt;a href=&quot;http://httpd.apache.org/docs/1.3/mod/mod_asis.html&quot;&gt;mod-asis&lt;/a&gt;, is a very simple way of sending static HTTP headers along with static content. Many installations of Apache have this disabled (the default) and those of us not on Apache are out of luck. This combination has led to this simple and useful feature being overlooked by most web developers.</description>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <pubDate>Fri, 02 Nov 2007 03:57:47 -0500</pubDate>
+</item>
+<item>
+ <title>Search Engine Friendly URLs with IIS and Classic ASP</title>
+ <link>http://evolt.org/search_engine_friendly_urls_with_iis_and_classic_asp</link>
+ <description>&lt;p&gt;A few years ago, I needed a Content Management System (CMS) for my site &lt;a href=&quot;http://www.voorbeginners.info/&quot; target=&quot;_blank&quot;&gt;Voor Beginners&lt;/a&gt; and its English counterpart &lt;a href=&quot;http://www.forbeginners.info/&quot; target=&quot;_blank&quot;&gt;For Beginners&lt;/a&gt;. One of the requirements was, that the CMS should use &quot;search engine friendly&quot; URLs. This is fairly easy to accomplish with Linux and Apache; however, another requirement was that the CMS should run on the Windows platform... In this article, I will show how you can &quot;simulate&quot; the effects of .htaccess and mod_rewrite using Microsoft&#039;s Internet Information Server (IIS) and classic ASP.&lt;/p&gt;</description>
+ <category domain="http://evolt.org/backend">Backend</category>
+ <category domain="http://evolt.org/code">Code</category>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <category domain="http://evolt.org/software">Software</category>
+ <pubDate>Wed, 14 Nov 2007 14:42:00 -0600</pubDate>
+</item>
+<item>
+ <title>Google Algorithm Update Analysis</title>
+ <link>http://evolt.org/google-algorithm-update-analysis</link>
+ <description>Anybody  who monitors their rankings with the same vigor that we in the SEO  community do will have noticed some fairly dramatic shifts in the  algorithm starting last Thursday (July 5th)  and continuing through the weekend.  Many sites are rocketing into  the top 10 which, of course, means that many sites are being dropped  at the same time.  We were fortunate not to have any clients on the  losing end of that equation however we have called and emailed the  clients who saw sudden jumps into the top positions to warn them that  further adjustments are coming.  After a weekend of analysis there  are some curiosities in the results that simply require further  tweaks in the ranking system.</description>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <pubDate>Fri, 24 Aug 2007 06:40:06 -0500</pubDate>
+</item>
+<item>
+ <title>Working with hierarchical data in SQL using Ancestor tables</title>
+ <link>http://evolt.org/working_with_hierarchical_data_in_sql_using_ancestor_tables</link>
+ <description>This document describe an approach to SQL queries of hierarchical data using ancestor tables. Multiple inheritance are allowed but cycles are not allowed for this approach to work.</description>
+ <category domain="http://evolt.org/software">Software</category>
+ <pubDate>Fri, 20 Jul 2007 07:53:08 -0500</pubDate>
+</item>
+<item>
+ <title>How to Get Listed in the DMOZ Directory</title>
+ <link>http://evolt.org/how_to_get_listed_in_dmoz</link>
+ <description>&lt;p&gt;I&#039;m a little confused. As an &lt;a href=&quot;http://www.afterimage.nl/&quot; target=&quot;_blank&quot;&gt;internet consultant&lt;/a&gt; specializing in search engine optimization, I believe that it is a good idea to submit your site to DMOZ (a.k.a. ODP or the Open Directory Project) --in fact, Google even &lt;a href=&quot;http://www.google.com/support/webmasters/bin/answer.py?answer=35769&quot; target=&quot;_blank&quot;&gt;encourages&lt;/a&gt; you to do so! However, being an &lt;a href=&quot;http://dmoz.org/profiles/marcelf.html&quot; target=&quot;_blank&quot;&gt;ODP editor&lt;/a&gt; myself, I can tell you from personal experience that perhaps only 10-20% of all the site suggestions we receive actually follow our &lt;a href=&quot;http://dmoz.org/add.html&quot; target=&quot;_blank&quot;&gt;guidelines&lt;/a&gt;...&lt;/p&gt;</description>
+ <category domain="http://evolt.org/commentary_and_society">Commentary &amp; Society</category>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <pubDate>Mon, 02 Jul 2007 08:35:54 -0500</pubDate>
+</item>
+<item>
+ <title>Failover Database Connection with PHP + mySQL</title>
+ <link>http://evolt.org/failover-database-connection-with-php-mysql</link>
+ <description>&lt;p&gt;You want to connect to a mySQL database? Well, then it&#039;s likely you already know how. But how about connecting a second database if the first one fails? No? This could be a life saver. &lt;/p&gt;</description>
+ <category domain="http://evolt.org/code">Code</category>
+ <pubDate>Sun, 20 May 2007 07:04:07 -0500</pubDate>
+</item>
+<item>
+ <title>How Visual Design Can Impact your Bottom Line</title>
+ <link>http://evolt.org/how-visual-design-can-impact-your-bottom-line</link>
+ <description>How do you know if you should invest more time and money into creating a killer design?  This case study examines how the look and feel of the site can impact your overall conversion rate which can provide justification for a little more investment.  View the old site, compare it to the new site and review the conversion metrics that shows the before and after conversion rates.</description>
+ <category domain="http://evolt.org/ia_usability">IA/Usability</category>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <category domain="http://evolt.org/visual_design">Visual Design</category>
+ <enclosure url="system/files?file=flowerguy_scr1.jpg" length="27877" type="image/jpeg" />
+ <pubDate>Sat, 23 Jun 2007 08:35:55 -0500</pubDate>
+</item>
+<item>
+ <title>Site review: French presidential campaign sites: voynet2007.fr</title>
+ <link>http://evolt.org/site-review-french-presidential-campaign-site</link>
+ <description>Dominique Voynet, a former minister of Environment and Equipment, is standing for the leftist Green party&#039;s in the French presidential election coming up at the end of April. Her campaign site, &lt;a href=&quot;http://www.voynet2007.fr/&quot; title=&quot;The site reviewed in this article&quot; target=&quot;_blank&quot;&gt;voynet2007.fr&lt;/a&gt;, seems to break an exceptionally high number of basic and seemingly well-accepted usability and content design guidelines.</description>
+ <category domain="http://evolt.org/reviews_and_links">Reviews &amp; Links</category>
+ <pubDate>Fri, 18 May 2007 03:36:16 -0500</pubDate>
+</item>
+<item>
+ <title>Making websites: what&#039;s your target audience ?</title>
+ <link>http://evolt.org/making_websites_whats_your_target_audience</link>
+ <description>If putting your business online means maximising the outreach, and a global audience, then Web Standards just add sense to your sensibility. A browser is never going to buy anything from you. The users should always get your content, no matter what platform they use, what media device they use, or wherever they might be.
+There should be no reason that a business turns back even one potential customer.</description>
+ <category domain="http://evolt.org/code">Code</category>
+ <category domain="http://evolt.org/site_development">Site Development</category>
+ <pubDate>Sun, 15 Apr 2007 10:20:00 -0500</pubDate>
+</item>
+<item>
+ <title>Working With Fractions In CSS and PHP</title>
+ <link>http://evolt.org/working-with-fractions-in-css-and-php</link>
+ <description>&lt;p&gt;Most of us are uncomfortable with using fractions when writting programs. If we encounter a fraction, we will first convert it into a floating point number (with decimals) and proceed from there. Most programming languages would prefer to use 0.5 as opposed to 1/2 because the later conflicts with the syntax of the languages. In this article, I will discuss an approach to working with fractions in PHP and CSS in one of the projects that I have done.
+&lt;/p&gt;</description>
+ <category domain="http://evolt.org/code">Code</category>
+ <pubDate>Mon, 02 Apr 2007 17:17:50 -0500</pubDate>
+</item>
+<item>
+ <title>Top 10 Lies told by Clients</title>
+ <link>http://evolt.org/top-10-lies-told-by-clients</link>
+ <description>&lt;p&gt;When you&#039;re working commercially, being great at what you do is about 25%
+of the task.  Too many times I see the sad example of someone walking in to a situation with
+noble intentions and then getting royally screwed, because what they
+see as an opportunity and a labor of love, the other party sees as something
+else entirely, not at all romantic or idealized, but raw and simple.
+&lt;/p&gt;
+
+&lt;p&gt;You are going to be dealing with people who are unlike yourself. Their
+motivations are their own and their attitudes are probably different
+than yours. When you&#039;re in education, you may have tough teachers
+and think that it can&#039;t be worse, but wait until a business person has
+a hundred grand riding on your work! Then you will know what &lt;q&gt;demanding&lt;/q&gt; means.
+&lt;/p&gt;
+&lt;p&gt;
+This list wasn&#039;t meant to make anyone crazy or paranoid, but is
+designed to inject some reality into the fantasy.
+&lt;/p&gt;</description>
+ <category domain="http://evolt.org/commentary_and_society">Commentary &amp; Society</category>
+ <category domain="http://evolt.org/jobs">Jobs</category>
+ <pubDate>Mon, 12 Feb 2007 06:47:25 -0600</pubDate>
+</item>
+<item>
+ <title>Ultimate htaccess Examples</title>
+ <link>http://evolt.org/ultimate_htaccess_examples</link>
+ <description>&lt;p&gt;&lt;strong&gt;Here&#039;s my list of the ultimate htaccess code snippets and examples that I use all the time.&lt;/strong&gt;  I tried to keep them extremely minimalistic.&lt;/p&gt;</description>
+ <category domain="http://evolt.org/backend">Backend</category>
+ <pubDate>Fri, 19 Oct 2007 10:48:46 -0500</pubDate>
+</item>
+<item>
+ <title>Quick Calendar Using AJAX and PHP</title>
+ <link>http://evolt.org/quick_calendar_using_ajax_and_php</link>
+ <description>&lt;p&gt;Online calendars are often used in many web applications. Though popular, the logic behind creating a calendar can be scary especially for those who are new to programming. There are many web calendars in the market but some of them are quite complicated. If we are not able to understand the code, it becomes harder for us to customise the calendar to fit into our existing application. As such, we need to create a calendar that can plug itself into any system seamlessly without problems. Whether we are using wordpress, mambo or drupal, we should only need to insert one line into our code for the calendar to work.&lt;/p&gt;</description>
+ <category domain="http://evolt.org/code">Code</category>
+ <pubDate>Sun, 15 Apr 2007 08:14:06 -0500</pubDate>
+</item>
+<item>
+ <title>Can WCAG 2.0 be simpler?</title>
+ <link>http://evolt.org/can_wcag_2_be_simpler</link>
+ <description>&lt;p&gt;The new WCAG 2.0 standard draft sparked a hot discussion around web accessibility and the standard direction. The main issue is how to make it simpler and easier to understand for web developer community. The author investigates some WCAG 2.0 success criteria and explains, why they should be solved by improving technology of user agents. 
+&lt;/p&gt;</description>
+ <category domain="http://evolt.org/commentary_and_society">Commentary &amp; Society</category>
+ <category domain="http://evolt.org/ia_usability">IA/Usability</category>
+ <pubDate>Tue, 14 Nov 2006 05:44:32 -0600</pubDate>
+</item>
+</channel>
+</rss>

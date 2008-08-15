@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://127.0.0.1/mambors5.3.0">
+        <title>Powered by Mambors5.3.0</title>
+        <description>Mambors site syndication</description>
+        <link>http://127.0.0.1/mambors5.3.0</link>
+        <image rdf:resource="http://127.0.0.1/mambors5.3.0/images/M_images/mambo_rss.png" />
+       <dc:date>2007-12-14T17:08:40+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://127.0.0.1/mambors5.3.0/content/view/24_34.html"/>
+                <rdf:li rdf:resource="http://127.0.0.1/mambors5.3.0/content/view/23_35.html"/>
+                <rdf:li rdf:resource="http://127.0.0.1/mambors5.3.0/content/view/22_35.html"/>
+                <rdf:li rdf:resource="http://127.0.0.1/mambors5.3.0/content/view/21_33.html"/>
+                <rdf:li rdf:resource="http://127.0.0.1/mambors5.3.0/content/view/20_33.html"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://127.0.0.1/mambors5.3.0/images/M_images/mambo_rss.png">
+        <title>Powered by Mambors5.3.0</title>
+        <link>http://127.0.0.1/mambors5.3.0</link>
+        <url>http://127.0.0.1/mambors5.3.0/images/M_images/mambo_rss.png</url>
+    </image>
+    <item rdf:about="http://127.0.0.1/mambors5.3.0/content/view/24_34.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2005-11-21T23:58:52+01:00</dc:date>
+        <dc:source>http://127.0.0.1/mambors5.3.0</dc:source>
+        <dc:creator>Administrator</dc:creator>
+        <title>Can I change the format of the Home Page?</title>
+        <link>http://127.0.0.1/mambors5.3.0/content/view/24_34.html</link>
+        <description>Yes, and it is very easy to do. The formatting of the Home Page -- the
+number of columns, the number...</description>
+    </item>
+    <item rdf:about="http://127.0.0.1/mambors5.3.0/content/view/23_35.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2005-11-21T18:49:48+01:00</dc:date>
+        <dc:source>http://127.0.0.1/mambors5.3.0</dc:source>
+        <dc:creator>Administrator</dc:creator>
+        <title>Can users edit content from the front end?</title>
+        <link>http://127.0.0.1/mambors5.3.0/content/view/23_35.html</link>
+        <description>Yes, if they are registered users who are logged into the system, and
+if you have given them permission. There are...</description>
+    </item>
+    <item rdf:about="http://127.0.0.1/mambors5.3.0/content/view/22_35.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2005-11-21T18:16:17+01:00</dc:date>
+        <dc:source>http://127.0.0.1/mambors5.3.0</dc:source>
+        <dc:creator>Administrator</dc:creator>
+        <title>Can I show different users different content?</title>
+        <link>http://127.0.0.1/mambors5.3.0/content/view/22_35.html</link>
+        <description>Within limits. The Mambo User Manager currently only supports a few
+levels ( groups ) of users. You can show different...</description>
+    </item>
+    <item rdf:about="http://127.0.0.1/mambors5.3.0/content/view/21_33.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2005-11-21T18:08:13+01:00</dc:date>
+        <dc:source>http://127.0.0.1/mambors5.3.0</dc:source>
+        <dc:creator>Administrator</dc:creator>
+        <title>How do I keep track of security advisories?</title>
+        <link>http://127.0.0.1/mambors5.3.0/content/view/21_33.html</link>
+        <description>Visit the Forums regularly and subscribe to the Mambo Security Announcements mailing list.</description>
+    </item>
+    <item rdf:about="http://127.0.0.1/mambors5.3.0/content/view/20_33.html">
+        <dc:format>text/html</dc:format>
+        <dc:date>2005-11-21T18:06:51+01:00</dc:date>
+        <dc:source>http://127.0.0.1/mambors5.3.0</dc:source>
+        <dc:creator>Administrator</dc:creator>
+        <title>How do I secure my Mambo site?</title>
+        <link>http://127.0.0.1/mambors5.3.0/content/view/20_33.html</link>
+        <description>A simple question with a complex answer! It is complex because security
+issues arise from a variety of sources: your code,...</description>
+    </item>
+</rdf:RDF>

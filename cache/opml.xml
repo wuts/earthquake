@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<opml xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <head>
+        <title>Powered by Mambors5.3.0</title>
+    </head>
+    <body>
+    <outline type="rss"  title="Can I change the format of the Home Page?" text="Can I change the format of the Home Page?" url="http://127.0.0.1/mambors5.3.0/content/view/24_34.html"/>
+    <outline type="rss"  title="Can users edit content from the front end?" text="Can users edit content from the front end?" url="http://127.0.0.1/mambors5.3.0/content/view/23_35.html"/>
+    <outline type="rss"  title="Can I show different users different content?" text="Can I show different users different content?" url="http://127.0.0.1/mambors5.3.0/content/view/22_35.html"/>
+    <outline type="rss"  title="How do I keep track of security advisories?" text="How do I keep track of security advisories?" url="http://127.0.0.1/mambors5.3.0/content/view/21_33.html"/>
+    <outline type="rss"  title="How do I secure my Mambo site?" text="How do I secure my Mambo site?" url="http://127.0.0.1/mambors5.3.0/content/view/20_33.html"/>
+    </body>
+</opml>

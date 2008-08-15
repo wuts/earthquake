@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>box_business_blue_cn</name>
+	<creationDate>01/31/05</creationDate>
+	<author>Magicbox(Ruth Chang)</author>
+	<copyright>GNU/GPL,all copyrights reserved by Magicbox(Ruth Chang).</copyright>
+	<authorEmail>cdhelp@canaan-design.com</authorEmail>
+	<authorUrl>http://canaan-design.com</authorUrl>
+	<version>1.0</version>
+	<description>Very nice business template,two columns fixed width, blue and white style, clean and nice, fast load, has a nice horizon mainmenu. </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>mysplitcssmenu.php</filename>
+	</files>
+	<images>
+		<filename>images/arrow.gif</filename>
+		<filename>images/banner.jpg</filename>
+		<filename>images/bg.gif</filename>
+		<filename>images/bg_article.jpg</filename>
+		<filename>images/bg_block.jpg</filename>
+		<filename>images/bg_cheading.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/bg_intro.jpg</filename>
+		<filename>images/bg_logo.gif</filename>
+		<filename>images/bg_snavi.gif</filename>
+		<filename>images/li.gif</filename>
+		<filename>images/line_hor.gif</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/menu_bg.gif</filename>
+		<filename>images/menuhov_bg.gif</filename>
+		<filename>images/search.gif</filename>
+		<filename>images/top.gif</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

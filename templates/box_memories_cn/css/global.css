@@ -1,0 +1,271 @@
+
+/*----------------------------------------
+Name: global.css
+Developed by:
+Date Created:
+Last Updated:
+Copyright:
+----------------------------------------*/
+
+/* Imports
+----------------------------------------*/
+@import url("reset.css");
+@import url("externalLinks.css");
+
+
+/* Elements
+----------------------------------------*/
+body
+{
+	background-color:#818181;
+}
+
+body, p, td, th, li
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.875em;
+	line-height:1.5em;
+	color:#fff;
+}
+
+#mainContainer
+{
+	width:760px;
+	margin: 15px auto;	
+}
+
+p
+{
+	margin: 0 0 1em 0;
+}
+
+/*--- Link Styles ---*/
+a:link, a:visited
+{
+	color:#B1DA67;
+}
+
+a:hover, a:active
+{
+	color:#5C8127;
+	text-decoration:none;
+}
+
+h1
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:2.125em;
+}
+
+h2
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:1.75em;
+}
+
+h3
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:1.5em;
+}
+
+h4
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:1.25em;
+}
+
+h5
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:1.125em;
+}
+
+h6
+{
+	color:#5C8127;
+	margin:.825em 0 .5em 0;
+	font-size:1em;
+}
+
+ul
+{
+	margin-left:25px;
+	list-style-type:none;
+}
+
+ol
+{
+	margin-left:25px;
+	
+}
+
+blockquote	{margin: 0 0 18px 18px; color:#666666; font-style: italic;}
+strong		{font-weight:bold;}
+em		{font-style:italic;}
+
+/* Standard Definitions
+----------------------------------------*/
+.left 		{float:left;}
+.right 		{float:right;}
+.clearThis 	{clear:both;}
+.small		{font-size:.625em;}
+.large		{font-size:1em;}
+.soft		{color:#D3D3D3;}
+.hide		{display:none;}
+p.last		{margin-bottom:0px;}
+
+/* Header
+----------------------------------------*/
+#header
+{
+	width:760px;
+	height:420px;
+background-color: #000;	
+}
+
+#logo
+{
+	height:65px;
+	padding:10px;
+	background: #818181 url(../images/icons/logo.gif) no-repeat;
+}
+
+ul#topNav
+	{		
+	  float:right;
+	  margin-top:50px;
+	}
+	
+	ul#topNav li {float:left;list-style-type:none;margin-left:10px;}
+	
+	/* Image Replacement 
+	----------------------------------------*/
+	ul#topNav li a {/*Set to height of image*/ height:20px; display:block; outline:none;}
+	
+	/*Include all of your links with unique IDs. Use the correct path to the image and set the width of each image*/
+	li#navMap a		{width:75px;}
+	li#navHome a		{width:70px;}
+	li#navMail a	{width:68px;}	
+
+#theme
+{
+	background: #000 url(../images/icons/theme_logo.jpg) no-repeat;
+	height:300px;
+	clear:both;
+}
+#theme span
+{
+ margin-left:630px;
+}
+#themeCover
+{
+	float:right;
+}
+
+	/* Nav
+	----------------------------------------*/
+
+	ul#nav
+	{
+      clear:both;
+	  margin:0px;
+	  height:25px;
+	  font:14px bold;
+	  border-top:1px dotted;
+	  border-bottom:1px dotted;
+	  background: #000 url(../images/icons/menu_bg.gif) right no-repeat;
+	  list-style-image: url(../images/icons/list_icon.gif);
+	}
+	
+	ul#nav li {float:left;list-style-type:none;margin-left:25px;margin-top:5px;margin-bottom:5px;}
+	
+	/* Image Replacement 
+	----------------------------------------*/
+	ul#nav li a {/*Set to height of image*/ height:20px; display:block; outline:none;}
+	
+	/*Include all of your links with unique IDs. Use the correct path to the image and set the width of each image*/
+	li#navAboutUs a		{width:75px;}
+	li#navDirectorLog a		{width:75px;}
+	li#navWorks a	{width:75px;}
+	li#navPictureLog a	{width:75px;}
+	li#navThanks a	{width:75px;}
+	li#navContact a	{width:75px;}
+	
+	/* CSS Rollover (Sprites) - Advanced Users!
+	----------------------------------------*/
+	
+	/*Each link must have a unique ID - Include all of your links here - Remove if not using!*/
+	li#navHome a:hover, li#navWork a:hover, li#navServices a:hover, li#navContact a:hover {background-position:0 -20px; /*Set to height of image !must be negative!*/}
+		
+/* Main Content
+----------------------------------------*/
+#mainContent
+{
+	
+	background-color:#000;
+	height:190px;
+}
+#leftCol
+{
+	float:left;
+	margin-left:25px;
+	width:200px;
+	border-right:1px dotted;
+}
+
+.title
+{
+  font-size:14px;
+}
+
+#readMore
+{
+	float:right;
+    margin-right:20px;
+	font-size:12px;
+}
+#rightCol
+{
+	float:left;
+}
+
+ul#pictureNav
+	{
+	  margin:0px;
+	  font:14px bold;
+	}
+	
+	ul#pictureNav li {float:left;list-style-type:none;margin:5px;}
+	
+	/* Image Replacement 
+	----------------------------------------*/
+	ul#pictureNav li a {/*Set to height of image*/ height:20px; display:block; outline:none;}
+
+
+
+/* Footer
+----------------------------------------*/
+#footer
+{
+    clear:both;
+	height:30px;
+	
+	background-color:#818181;}
+
+#footer p 
+{
+	font-size:1em;	
+	margin-left:300px;
+}
+
+
+
+
+
+

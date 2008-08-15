@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="gb2312"?>
+<mosinstall type="module" version="4.5.x">
+	<name>Who's Online</name>
+	<author>Mambo Project</author>
+	<creationDate>2005-08-03</creationDate>
+	<copyright>Copyright (C) 2004 - 2007 mamhoo.com.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>lang3@mamhoo.com</authorEmail>
+	<authorUrl>www.mamhoo.com</authorUrl>
+	<version>1.5</version>
+	<description>The Who's Online module displays the number of anonymous (that is, Guest) users and Registered users, (those that are logged in) that are currently accessing the web site.</description>
+	<files>
+		<filename module="mod_whosonline">mod_whosonline.php</filename>
+	</files>
+	<params>
+	  <param name="online" type="radio" default="0" label="显示详情" description="显示详细在线信息">
+		<option value="1">是</option>
+		<option value="0">否</option>
+	  </param>
+	  <param name="users" type="radio" default="0" label="显示用户" description="显示在线用户">
+		<option value="1">是</option>
+		<option value="0">否</option>
+	  </param>
+	  <param name="stat_time" type="text" default="300" label="统计时间间隔(秒)" description="用户在线情况统计时间间隔，默认为300秒，即5分钟" />
+	  <param name="moduleclass_sfx" type="text" default="" label="模块css后缀" description="用来定义模块的css类型(table.moduletable)的后缀，这样允许模块使用单独的css风格" />
+	</params>
+</mosinstall>

@@ -1,0 +1,31 @@
+/**
+* $Id: INSTALL.txt,v 3.0 2007-05-31
+* @package Mamhoo3.0
+* @Copyright (C) 2004 - 2007 mamhoo.com
+* @Autor: lang3
+* @URL: http://www.mamhoo.com
+* @license: http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Mamhoo is free Software
+**/
+
+曼虎的安装，升级和卸载
+
+1. 系统环境需求
+推荐运行环境为 Apache 2.2.x / Apache 2.0.5x, MySQL 4.0.xx, Php 4.4.x。
+
+2. 安装曼虎3.0
+
+2.1 安装曼虎组件 com_mamhoo3.0 ，像安装其它普通 Mambo 组件一样，在 Mambo 后台点击“组件 > 安装/卸载”来安装。
+
+2.2 安装曼虎钩子
+曼虎钩子的文件包中有详细的安装说明文件 INSTALL.txt ，请遵照安装说明进行安装。
+
+
+3. 卸载曼虎 3.0
+如果想把整合系统拆卸为独立的系统，卸载曼虎钩子就可以。
+
+3.1 卸载曼虎钩子 2.1
+每个曼虎钩子的文件包中都带有详细的安装说明文件 INSTALL.txt ，具体曼虎钩子的卸载，请遵照其安装说明文件进行。
+
+3.2 卸载曼虎组件 com_mamhoo3.0，由于曼虎组件 com_mamhoo3.0 已经成为曼波整站系统5.1.0 的核心组件，核心组件是不能卸载的。
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="5.4.0">
+	<name>Latest News Pro</name>
+	<author>Mambo China Team</author>
+	<creationDate>2008-03-03</creationDate>
+	<copyright>(C) 2004 - 2008 Mambo China</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>lang3@mambochina.net</authorEmail>
+	<authorUrl>www.mambochina.net</authorUrl>
+	<version>5.4.0</version>
+	<description>This module shows a list of the latest published content items.</description>
+	<files>
+		<filename module="mod_latestnews">mod_latestnews.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="Show/Hide items designated for the Frontpage - only works when in Content Items only mode">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default is 5)" />
+		<param name="catid" type="text" default="" label="Category ID" description="Selects items from a specific Category or set of Categories (to specify more than one Category, seperate with a comma , )." />
+		<param name="secid" type="text" default="" label="Section ID" description="Selects items from a specific Secion or set of Sections (to specify more than one Section, seperate with a comma , )." />
+		<param name="target" type="list" default="0" label="Target" description="Target window when the link is clicked">
+			<option value="0">Parent Window With Browser Navigation</option>
+			<option value="1">New Window With Browser Navigation</option>
+		</param>
+		<param name="show_headline" type="radio" default="0" label="Show Headline" description="Show/Hide the first content item as headline">
+			<option value="1">show</option>
+			<option value="0">hide</option>
+		</param>
+		<param name="moduletitle" type="text" default="" label="Module Title" description="User defined module title, Only use when headline shown" />
+		<param name="seccat_style" type="radio" default="0" label="Section/Category Style" description="style of section/category: list or blog">
+			<option value="0">List</option>
+			<option value="1">Blog</option>
+		</param>
+		 <param name="titlelength" type="text" default="40" label="Title Length" description="The max length of item title in chars to display, Default 40" />
+		<param name="datedisplay" type="list" default="mm-dd" label="Date Display" description="The display of item created date">
+			<option value="0">None</option>
+			<option value="m-d">mm-dd</option>
+			<option value="m-d H:i">mm-dd hh:mm</option>
+			<option value="y-m-d">yy-mm-dd</option>
+			<option value="Y-m-d">yyyy-mm-dd</option>
+			<option value="H:i">hh:mm</option>
+		</param>
+	</params>
+</mosinstall>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>box_memories_cn</name>
+	<creationDate>05/10/2005</creationDate>
+	<author>Magicbox</author>
+	<copyright>GNU/GPL,If you want to get rid of the infomation of the design by link, please pay for it.</copyright>
+	<authorEmail>cdhelp@gmail.com</authorEmail>
+	<authorUrl>templates.mambochina.net</authorUrl>
+	<version>1.0</version>
+	<description>Template 1024 X 768 solutions. A mainly light brown colored, 3 columns.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bg_default.gif</filename>
+		<filename>images/bg_index.gif</filename>
+		<filename>images/bg_left.gif</filename>
+		<filename>images/bg_pic.png</filename>
+		<filename>images/bg_right.gif</filename>
+		<filename>images/bg_title.gif</filename>
+		<filename>images/bottom_index.gif</filename>
+		<filename>images/bottom1.gif</filename>
+		<filename>images/bottom2.gif</filename>
+		<filename>images/girl.gif</filename>
+		<filename>images/icon_home.gif</filename>
+		<filename>images/icon_mail.gif</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/top.gif</filename>
+		<filename>images/top_index.gif</filename>
+		<filename>images/ul.gif</filename>
+		<filename>images/indent1.png</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

@@ -1,0 +1,795 @@
+#clr {
+	clear:both;
+}
+.bg_main {
+	background-color: #BFB297; 
+	padding			: 0; 
+	margin			: 0px;
+	text-align		: center;
+	vertical-align	: top;
+}
+
+/* ******************************************* main container */
+#header {
+	margin: 0;
+	padding:0;
+	background:url(../images/top_index.gif) no-repeat;
+	width: 842px !important;
+	height:26px;
+}
+
+#bottom {
+	margin: 0;
+	padding:0;
+	background:url(../images/bottom_index.gif) no-repeat;
+	width: 842px !important;
+	height:26px;
+}
+
+.out_container {
+	background: url(../images/bg_index.gif)  repeat-y; 
+	margin: 0;
+	padding:0px;
+}
+
+.main_container {
+	margin: 0;
+	padding:0px;
+	border:1px solid #9A907A;
+}
+
+.bottom_container {
+	border-bottom:1px solid #D2AD75;
+	border-left:1px solid #D2AD75;
+	border-right:1px solid #D2AD75;
+	border-top:0px;
+}
+
+/* ******************************************* leftside */
+#leftside {
+	padding:0px;
+	text-align: center;
+	width: 165px !important;
+	text-align: center;
+}
+
+#rightside {
+	padding:0px;
+	text-align: center;
+	width: 165px !important;
+	height:100%;
+}
+
+#randompic {
+	padding:9px 0px 10px 6px;
+	background:url(../images/bg_pic.png) no-repeat;
+	text-align: center;
+	height:192px;
+	width: 165px !important;
+}
+
+#rightmain {
+	padding:0px 0px 0px 0px;
+	width: 157px !important;
+	margin: 0px 0px 0px 0px;
+}
+
+#leftmain {
+	padding:0px 0px 0px 0px;
+	text-align: left;
+	width: 157px !important;
+	margin: 0px 0px 0px 0px;
+}
+
+
+#leftmain table.moduletable th, #rightmain table.moduletable th {
+	height:25px;
+	background:url(../images/bg_title.gif) repeat-x;
+	font-family     : Verdana, Arial, sans-serif, Helvetica ;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #5E776B;
+	text-align: left;
+	text-indent: 4px;
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+	line-height:25px;
+}
+
+#leftmain table.moduletable td {
+	font-family     : Arial, Helvetica, sans-serif;
+	font-size		: 12px;
+	color			: #60584B;
+	line-height		: 16px;
+	text-align		: left;
+	padding			: 2px 0px 2px 0px;
+}
+
+
+/* ******************************************* main body */
+#main_body {
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+	border: 0;
+	text-align: center;
+}
+
+#main_area {
+	width: 98%;
+	margin: 0px 0px 5px 0px;
+	padding:0px 0px 0px 0px;
+	border: 0;
+	text-align: left;
+}
+
+
+/* *******************************************  pathway*/
+#can_pathway {
+	width			: 814px !important;
+	height			: 28px !important;
+	padding			: 0px;
+	text-indent		: 1em;
+	text-align		: left;
+	font-family     : Arial, Verdana, Helvetica, sans-serif;
+	font-size		: 12px;
+	color			: #FFE5BF;
+	background-color:#A49881;
+	line-height		:20px;
+}
+
+#can_pathway img {
+	margin:15px 1px 0px 1px;
+}
+
+.pathway {
+	padding			: 0px;
+	margin			: 10px 0px 0px 0px;
+	border			: 0;
+	line-height		:25px;
+}
+
+a.pathway:link, a.pathway:visited {
+	color			: #FFE5BF;
+	font-size		: 12px;
+	line-height		:25px;
+}
+a.pathway:hover {
+	color			: #f90;
+	line-height		:25px;
+}
+
+/* *******************************************  SEARCH*/
+.searchbox {
+	font			: normal 10px Verdana, Arial, Helvetica, sans-serif;
+	color			: #FFEECA;
+	border			: 0px;
+	background-color:#CDBFA2;
+}
+
+/* ******************************************* flashnews and blocks */
+#newsflash {
+	width			: 97%;
+	margin			: 0px 0px 0px 0px;
+	text-align		: center;
+}
+
+#newsflash table.moduletable {
+	width			: 100%;
+	padding			: 0px;
+	margin			: 0px 0px 0px 0px;
+	border			: 0;
+}
+
+#newsflash table.moduletable th {
+	font		: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color			: #5E776B;
+	line-height		: 24px;
+	text-align		: left;
+	background:url(../images/bg_title.gif) repeat-x;
+	text-indent		: 5px;
+}
+
+#newsflash table.moduletable td {
+	font-family     : Arial, Helvetica, sans-serif;
+	font-size		: 12px;
+	color			: #5C5649;
+	line-height		: 16px;
+	text-align		: left;
+	padding:0px;
+}
+
+#blocks table.moduletable th {
+	font		: bold 11px Verdana, Arial, Helvetica, sans-serif;
+	color			: #5E776B;
+	line-height		: 24px;
+	text-align		: left;
+	background:url(../images/bg_title.gif) repeat-x;
+	text-indent		: 5px;
+}
+
+#blocks table.moduletable td {
+	font-family     : Arial, Verdana, Helvetica, sans-serif;
+	font-size		: 12px;
+	color			: #5C5649;
+	line-height		: 16px;
+	text-align		: left;
+	padding:0p 2px 4px 2px;
+}
+
+#blocks .moduletable a:link, #blocks .moduletable a:visited { 
+	font-size		: 12px;
+	color			: #465950; 
+	text-decoration	: none;
+	line-height:17px;
+	font-weight:bold;
+}
+
+#blocks .moduletable a:hover {
+	font-size		: 12px;
+	color			: #A49881; 
+	text-decoration	: underline;
+}
+
+/* ******************************************* Footer */
+#footer  {
+	padding			: 4px 0px 0px 0px;
+	margin			: 0;
+	width			: 100%;
+	text-align		: left;
+	vertical-align	: middle;
+	font			: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color			: #A49881;
+	line-height		:18px;
+}
+#footer div {
+}
+#footer a, #footer a:link, #footer a:visited {
+	color			: #D4522D;
+	text-decoration	:underline;
+}
+
+#footer a, #footer a:hover {
+	color			:#5E776B;
+	text-decoration	:none;
+}
+
+/* *******************************************  General CSS Styles  */
+
+body {
+	background		: #FFEECA; 
+	padding			: 0; 
+	margin			: 0;
+	vertical-align	: top;
+	scrollbar-face-color: #9A907A;
+    scrollbar-shadow-color: #9A907A;
+    scrollbar-darkshadow-color: #9A907A;
+    scrollbar-highlight-color: #9A907A;
+    scrollbar-3dlight-color: #9A907A;
+    scrollbar-track-color: #BFB297;
+    scrollbar-arrow-color: #BFB297;
+}
+
+td, div, p {
+	color:#5C5649;
+	font-family     : Arial, Verdana, sans-serif, Helvetica ;
+	font-size		: 12px;
+	line-height		: 16px;
+}
+
+
+a, a:link, a:visited {
+	color			: #5E776B;
+	text-decoration	: none;
+}
+a:hover {color: #FFA100; text-decoration:none}
+
+h1	{font: bold 15px Georgia, "Times New Roman", Times, serif;	color: #333; margin: 0px; padding: 0px;}
+h2	{font: bold 14px Georgia, "Times New Roman", Times, serif;	color: #333; margin: 0px; padding: 0px;}
+h3	{font: bold 13px Georgia, "Times New Roman", Times, serif;	color: #333; margin: 0px; padding: 0px;}
+h4	{font: bold 12px Georgia, "Times New Roman", Times, serif;	color: #333; margin: 0px; padding: 0px;}
+
+ol	{list-style: decimal outside; }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 15px;
+  padding-left: 12px;
+  padding-top: 0px;
+  background-image: url(../images/ul.gif) ;
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+}
+blockquote {
+	margin			: 10px;
+	margin-left		: 30px;
+	padding			: 0 20px 0 10px;
+	border-left		: 5px solid #ccc;
+}
+
+form { 
+	margin			: 0; 
+	padding			: 0;
+}
+select { 
+	font-size		: 12px; 
+	font-weight		: bold; 
+	color			: #333;
+}
+input {
+	padding			: 0;
+	margin			: 0;
+}
+
+th.pagenav_prev, th.pagenav_next, a.pagenav_next:link, a.pagenav_next:visited {
+	font-size		: 12px; 
+	color			: #ffffff;
+	background-color:#FFFFFF;
+	font-weight		: normal;
+}
+a.pagenav_next:hover {
+	font-size		: 12px; 
+	color			: #2A95FA; 
+	text-decoration	: none;
+}
+
+
+/* ******************************************* MODULES */
+table.moduletable {
+	width			: 100%;
+	padding			: 0px;
+	margin			: 0px 0px 0px 0px;
+	border	: 0;
+}
+table.moduletable th {
+	height:28px;
+	background:url(../images/bg_lefttitle.png) no-repeat;
+	font-family     : Verdana, Arial, sans-serif, Helvetica ;
+	font-size		: 12px;
+	font-weight		: bolder;
+	color: #FFF5E5;
+	text-indent		: 2em;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+	border: 0;
+	line-height:28px;
+}
+table.moduletable td  {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	color			: #666666;
+	text-align		: left;
+	padding			: 2px 0px 2px 0px;
+	margin			: 0px;
+	border			: 0;
+}
+
+table.pollstableborder td {
+  padding: 2px;
+}
+
+.moduletable a:link, .moduletable a:visited { 
+	color			: #A49881; 
+	font-weight:bold;
+	font-size		: 12px;
+	font-family     : Verdana, Arial, sans-serif, Helvetica ;
+	text-decoration	: none;
+}
+.moduletable a:hover {
+	color			: #5E776B; 
+	text-decoration	: underline overline;
+}
+table.moduletable ul {
+	padding			: 0;
+	margin			: 0 0 0 3px;
+}
+
+.button {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	padding-top		: 2px 2px 0px 2px;
+	color			: #5E776B;
+	border  		: 1px solid #5E776B;
+	background-color:#FFEECA;
+}
+.inputbox, .search {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	color			: #5E776B;
+	border			: 1px solid #A49881;
+	background-color:#FFF5E5;
+}
+.poll {
+	font			: 12px Arial, Helvetica, sans-serif; 
+	color			: #666666; 
+	font-weight		: normal; 
+	border			: 0; 
+	padding			: 0;
+}
+
+/* ******************************************* CONTENT STYLES */
+.contentpane, .contentpaneopen, .contentdescription {
+	width			: 100%;
+	text-align		: left;
+	color			: #5E776B; 
+	padding			:0px;
+}
+.contentpane td, .contentpaneopen td, .contentdescription td {
+	padding			: 0px; 
+}
+a.contentpane:link, a.contentpane:visited, a.contentpaneopen:link, a.contentpaneopen:visited {
+	color			: #666666; 
+	text-decoration	: none
+}
+a.contentpane:hover, a.contentpaneopen:hover {
+	color			: #2A95FA; 
+	text-decoration	: underline;
+}
+
+.contentheading, .componentheading {
+	width:100%;
+	font		: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	color			: #4c6056;
+	line-height		: 21px;
+	text-align		: left;
+	text-indent		: 5px;
+	background-color:#EBDBBA;
+}
+
+.contentpagetitle, a.contentpagetitle:link, a.contentpagetitle:visited 	{
+	color			: #234;
+}
+a.contentpagetitle:hover {
+	color			: #567;
+
+}
+.buttonheading {
+	font			: normal 12px Georgia, "Times New Roman", Times, serif;
+	white-space		: nowrap;	
+}
+
+.content_rating, .content_vote {
+	font-size		: 12px;	
+	color			: #345; 
+	text-decoration	: none; 
+	font-weight		: normal; 
+	vertical-align	: middle; 
+	margin			: 0 6px; 
+	padding			: 0;
+}
+
+.back_button {
+	float:right;
+	width:45px;
+	font-size		: 12px;	
+	color			: #A86500; 
+	text-decoration	: none; 
+	font-weight		: normal; 
+	test-align:right;
+	vertical-align	: middle; 
+	margin			: 0 6px; 
+	padding			: 1px 4px 1px 4px;
+	background-color:#F6EAC7;
+	border:1px solid #DEC298;
+}
+
+.small 		{
+	font-size		: 12px; 
+	color			: #9E8258; 
+	text-decoration	: none; 
+	font-weight		: normal;
+	line-height:15px;
+}
+.smalldark	{
+	font-size		: 12px; 
+	color			: #003; 
+	text-decoration	: none; 
+	font-weight		: normal;
+}
+.createdate, .modifydate {
+	font-size		: 10px; 
+	font-weight		: normal; 
+	color			: #777777;
+}
+a.readon:link, a.readon:visited {
+	font-family     :  Arial, Verdana, Helvetica,sans-serif;
+	font-size		: 12px;
+	font-weight		: bold;
+	color			: #A96B16;
+}
+a.readon:hover {
+	color			: #A96B16;
+	text-decoration	: underline overline; 
+}
+
+.fase4rdf, a.fase4rdf:link, a.fase4rdf:visited {
+	font-size		: 12px; 
+	font-weight		: normal; 
+	color			: #333;
+}
+a.fase4rdf:hover {
+	font-weight		: bold; 
+	color			: #2A95FA;
+}
+
+a.blogsection:link, a.blogsection:visited {
+	font-size		: 12px;
+	color			: #A96B16;
+	text-decoration	: none;
+	font-weight		: normal;
+	font-weight		: bolder;
+}
+a.blogsection:hover {
+	font-size		: 12px;
+	color			: #A96B16; 
+	text-decoration	: underline overline;
+	font-weight		: bolder;
+}
+
+.ontab 	{
+	color			: #345;
+	padding			: 2px 10px 2px 10px;
+	border-top		: 2px solid #345;
+	border-right	: 2px solid #345;
+	border-bottom	: 0;
+	border-left		: 2px solid #345;
+	font-weight		: bold;
+}
+.offtab {
+	color			: #666;
+	padding			: 2px 10px 2px 10px;
+	border-top		: 1px solid #666;
+	border-right	: 1px solid #666;
+	border-bottom	: 3px solid #345;
+	border-left		: 1px solid #666;
+	cursor			: default;
+}
+.tabpadding {
+	border-bottom	: 3px solid #345;
+}
+	
+table.searchintro {
+	background		: #fff;
+	margin			: 0  5px;
+	width			: 100%;
+	border-bottom	: 1px solid #fff;
+}
+table.searchintro td {
+	padding			: 5px;
+	border			: 0;
+	border-bottom	: 1px solid #fff;
+}
+
+.blog {
+	margin			: 0px;
+	padding			: 0px;
+	width			:100%;
+}
+
+.blog_more {
+	padding			: 18px 8px;
+	margin			: 0px;
+	font-size		: 12px;
+	font-weight		: bold;
+	color			: #333;
+}
+.blog_more ul {
+	padding			: 0px;
+	margin			: 0px;
+}
+
+table.contenttoc {
+	border			: 1px solid #DEC298;
+ 	padding			: 1px;
+	margin-left		: 7px;
+	margin-bottom	: 2px;
+}
+table.contenttoc th {
+	color			: #fff;
+	text-align		: left;
+	padding			: 4px;
+	font-weight		: bold;
+	font-size		: 12px;
+	text-transform	: uppercase;
+	background		: #DEC298;
+}
+table.contenttoc td {
+	font-size		: 12px;
+}
+
+
+/* ******************************************* STYLES CONTACT PAGE */
+table.contact {
+	background		: transparent;
+}
+table.contact td.icons {
+	background		: #89a;
+}
+table.contact td.details {
+	background		: #F4E8CF;
+	margin			: 5px;
+	padding			: 5px;
+	border			: 1px dotted #ccc;
+}
+.contact_email {
+	background		: #F4E8CF;
+	margin			: 5px;
+	padding			: 5px;
+	border			: 1px dotted #ccc;
+}
+
+/* ******************************************* MAIN AND SUB MENU SYSTEM  */
+.mainlevel {
+	font		: bold 12px Arial, Verdana, Helvetica, sans-serif;
+	line-height:20px;
+}
+a.mainlevel:link, a.mainlevel:visited {
+	font		: italic bold 12px Verdana, Arial, Helvetica, sans-serif;
+	display: block;
+	color			: #F4E8CF; 
+	background-color: #A49881;
+	text-decoration	: none;
+	padding			: 0px 0px;
+	text-indent	: 5px;
+	border	: 0;
+	height:20px;
+	line-height:20px;
+}
+a.mainlevel:hover {
+	font-weight	: bold;
+	color			: #F4E8CF; 
+	background-color: #B44B66;
+	text-decoration	: none;
+	padding			: 0px 0px;
+}
+#active_menu {
+	border	: 0;
+	background-color: #B44B66;
+	color			: #F4E8CF; 
+}
+
+.sublevel {
+	width:94%;
+	color			: #975B00; 
+	padding			: 0px 0px;
+	text-indent	: 5px;
+	border	: 0;
+	height:18px;
+	background		: url(../images/bg_snavi.gif) repeat-y;
+	background-position:right bottom;
+	line-height:20px;
+	text-decoration	: none;
+}
+a.sublevel:link, a.sublevel:visited {
+	color			: #FF7A00;
+	text-decoration	: none;
+	background-color:#F4E8CF;
+}
+a.sublevel:hover {
+	color			: #B89200;
+	text-decoration	: none;
+}
+a.sublevel#active_menu  {
+	border			: 0;
+	color           : #F4E8CF;
+	text-decoration	: none;
+}
+
+/* ******************************************* TOP MENU SYSTEM  */
+ul#mainlevel-nav {
+	font			: bold 12px Verdana, Arial, Helvetica, sans-serif;
+	list-style		: none;
+	padding			: 0;
+	margin			: 0;
+}
+
+ul#mainlevel-nav li
+{
+	display			: block;
+	background		: transparent;
+	padding			: 0;
+	margin			: 0;
+	float			: left;
+
+	white-space		: nowrap;
+	border-right	: 2px solid #F6EAC7;
+}
+
+ul#mainlevel-nav li a {
+	display			: block;
+	height			: 14px !important;
+	height			: 17px;
+	padding			: 1px 1px 1px 4px;
+	margin			: 0;
+	width			: 75px !important;
+	width			: 80px;
+	text-decoration	: none;
+	color			: #BF7300;
+	background		: #FFF5E5;
+}
+
+ul#mainlevel-nav li a:hover
+{
+	color: #BF7300;
+	background: #DEC298;
+}
+
+a.mainlevel-nav:link, a.mainlevel-nav:visited  {
+	color			: #7B7261;
+}
+
+a.mainlevel-nav:hover  {
+	color			: #5E776B;
+}
+
+/* ******************************************* CATEGORY (text format and links) */
+.category {
+	color			: #5A3600;
+	font-size		: 12px;
+	font-weight		: bold;
+	text-decoration	: none;
+	}
+a.category:link, a.category:visited {
+	color			: #5A3600;
+	font-weight		: bold;
+}
+a.category:hover {
+	color			: #C7A621;
+}
+	
+/* ******************************************* STYLES LISTING CONTENT PAGE */
+td.sectiontableheader, td.sectiontablefooter  {
+	background-color: #BFB297; 
+	color			: #FFEECA; 
+	font-weight		: bold;
+	font-size		: 12px;
+	padding			: 2px 3px 4px 2px;
+}
+.sectiontableentry1  {
+	background-color: #F1E1BF; 
+	color			: #4C6056; 
+	font-weight		: normal; 
+	padding			: 2px 0px 2px 2px;
+}
+.sectiontableentry2  {
+	background		: #F7EEDB; 
+	color			: #4C6056; 
+	font-weight		: normal; 
+	padding			: 2px 0px 2px 2px;
+}
+
+.pagenavbar {
+	text-align		: center;
+	vertical-align	: middle;
+	padding			: 2px;
+	width			: 100%;
+}
+.pagenav {
+	color			: #FFEECA;
+	font-size		: 12px;
+	font-weight		: bold;
+	text-decoration	: none;
+	marging			: 0;
+	padding			: 0 2px;
+	border			: 0;
+}
+a.pagenav:link, a.pagenav:visited  {
+	color 			: #A86500; 
+	background-color: transparent;
+}
+a.pagenav:hover {
+	color			: #5A3600; 
+	background		: transparent; 
+	text-decoration	: underline;
+}
+
+
+hr {
+	background		: transparent; 
+	height			: 1px; 
+	border			: 1px solid #DEC298; 
+	width			: 100%;
+}

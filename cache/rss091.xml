@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="0.91">
+    <channel>
+        <title>Powered by Mambors5.3.0</title>
+        <description>Mambors site syndication</description>
+        <link>http://127.0.0.1/mambors5.3.0</link>
+        <lastBuildDate>Fri, 14 Dec 2007 17:09:32 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <image>
+            <url>http://127.0.0.1/mambors5.3.0/images/M_images/mambo_rss.png</url>
+            <title>Powered by Mambors5.3.0</title>
+            <link>http://127.0.0.1/mambors5.3.0</link>
+            <description>Mambors site syndication</description>
+        </image>
+        <item>
+            <title>什么是曼波整站系统(Mambors)？</title>
+            <link>http://127.0.0.1/mambors5.3.0/content/view/26_27.html</link>
+            <description>曼波整站系统是在 Mambo 全球版基础上改进开发的适合中国人的智能建站系统，由 Mambo中国 (http://www.mambochina.net) 和 Mambo Resource (http://www.mambors.org) 联合增强开发，是 Mambo 中文化的传承和发扬光大！ 
+
+曼波整站系统是免费的自由软件，遵循 GNU/GPL 开源许可协议。 
+
+曼波整站系统做为 Mambo 的中文分支，英文代码为 Mambors，以区分英文版 Mambo...</description>
+            <author>Administrator</author>
+            <pubDate>Thu, 29 Mar 2007 14:47:39 +0100</pubDate>
+        </item>
+        <item>
+            <title>什么是Mambo智能建站系统(CMS)？</title>
+            <link>http://127.0.0.1/mambors5.3.0/content/view/1_27.html</link>
+            <description>欢迎转载，转载请注明出处：Mambo中国http://www.mambochina.net
+
+Mambo，中文意思为曼波音乐(源于古巴黑人音乐)，是这个星球上功能最强大的开放源码的智能建站系统之一。在2004年4月20日伦敦举行的Linux用户和开发员大会上，Mambo从众多优秀的开放源码系统中脱颖而出，获得2004年度最佳Linux开放源码系统奖项，和它同场竞技的有KDE、Firebird SQL以及eGroupware等，这些都是知名度很高，被广泛使用的系统，现在却沦为Mambo的手下败将，可想而知，Mambo的魔力有多大！
+
+Mambo是功能非常强大的智能建站系统，目前用户快超过了Phpnuke,他吸收了phpnuke,xoops的很多优点，更灵活，更强大，有数不清的插件和皮肤下载！
+
+本文将给你一个较好的解释，Mambo是如何适合网站建设和管理的。</description>
+            <author>Administrator</author>
+            <pubDate>Sat, 25 Sep 2004 03:54:06 +0100</pubDate>
+        </item>
+        <item>
+            <title>Welcome to Mambo!</title>
+            <link>http://127.0.0.1/mambors5.3.0/content/view/15_27.html</link>
+            <description>Thank you for choosing Mambo. You have completed successfully the
+installation of the Mambo files and are now viewing part of...</description>
+            <author>Administrator</author>
+            <pubDate>Fri, 18 Nov 2005 23:52:18 +0100</pubDate>
+        </item>
+        <item>
+            <title>Using Templates Effectively</title>
+            <link>http://127.0.0.1/mambors5.3.0/content/view/14_27.html</link>
+            <description>Your Mambo installation comes bundled with a default template and CSS. The template that displays when you first install the...</description>
+            <author>Administrator</author>
+            <pubDate>Fri, 18 Nov 2005 23:34:35 +0100</pubDate>
+        </item>
+        <item>
+            <title>Getting the Most Out of Your Mambo Site</title>
+            <link>http://127.0.0.1/mambors5.3.0/content/view/13_27.html</link>
+            <description>An introduction to Components, Modules   Mambots
+The default installation of Mambo includes a variety of features which are available...</description>
+            <author>Administrator</author>
+            <pubDate>Fri, 18 Nov 2005 23:25:47 +0100</pubDate>
+        </item>
+    </channel>
+</rss>

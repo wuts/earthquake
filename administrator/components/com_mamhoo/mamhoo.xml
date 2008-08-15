@@ -1,0 +1,156 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>mamhoo</name>
+  <creationDate>2007-05-31</creationDate>
+  <author>lang3</author>
+  <copyright>Copyright (C) 2004 - 2007 mamhoo.com</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>mamhoo@gmail.com</authorEmail>
+  <authorUrl>www.mamhoo.com</authorUrl>
+  <version>3.0</version>
+  <description>mamhoo is a systems integration platform, hooks the best systems into Mambors</description>
+  <files>
+    <filename>mamhoo.php</filename>
+    <filename>mamhoo.html.php</filename>
+	<filename>index.html</filename>
+	<filename>images/mamhoologo.gif</filename>
+	<filename>images/index.html</filename>
+    <filename>language/english.php</filename>
+	<filename>language/simplified_chinese.php</filename>
+	<filename>language/simplified_chinese_utf-8.php</filename>
+	<filename>language/traditional_chinese.php</filename>
+	<filename>language/traditional_chinese_utf-8.php</filename>
+	<filename>language/index.html</filename>
+	<filename>mamhooks/mamhoo_addon.php</filename>
+	<filename>mamhooks/index.html</filename>
+  </files>
+  <install>
+    <queries>
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__mamhoo` (
+          `user_id` int(11) NOT NULL default '1',
+          `f01` varchar(255) NULL,
+          `f02` varchar(255) NULL,
+          `f03` varchar(255) NULL,
+          `f04` varchar(255) NULL,
+          `f05` varchar(255) NULL,
+          `f06` varchar(255) NULL,
+          `f07` varchar(255) NULL,
+          `f08` varchar(255) NULL,
+          `f09` varchar(255) NULL,
+          `f10` varchar(255) NULL,
+          `f11` varchar(255) NULL,
+          `f12` varchar(255) NULL,
+          `f13` varchar(255) NULL,
+          `f14` varchar(255) NULL,
+          `f15` varchar(255) NULL,
+          `f16` varchar(255) NULL,
+          `f17` varchar(255) NULL,
+          `f18` varchar(255) NULL,
+          `f19` varchar(255) NULL,
+          `f20` varchar(255) NULL,
+          `f21` varchar(255) NULL,
+          `f22` varchar(255) NULL,
+          `f23` varchar(255) NULL,
+          `f24` varchar(255) NULL,
+          `f25` varchar(255) NULL,
+          `f26` varchar(255) NULL,
+          `f27` varchar(255) NULL,
+          `f28` varchar(255) NULL,
+          `f29` varchar(255) NULL,
+          `f30` varchar(255) NULL,
+          `f31` varchar(255) NULL,
+          `f32` varchar(255) NULL,
+          `f33` varchar(255) NULL,
+          `f34` varchar(255) NULL,
+          `f35` varchar(255) NULL,
+          `f36` varchar(255) NULL,
+          `f37` varchar(255) NULL,
+          `f38` varchar(255) NULL,
+          `f39` varchar(255) NULL,
+          `f40` varchar(255) NULL,
+          `f41` varchar(255) NULL,
+          `f42` varchar(255) NULL,
+          `f43` varchar(255) NULL,
+          `f44` varchar(255) NULL,
+          `f45` varchar(255) NULL,
+          `f46` varchar(255) NULL,
+          `f47` varchar(255) NULL,
+          `f48` varchar(255) NULL,
+          `f49` varchar(255) NULL,
+          `f50` varchar(255) NULL,
+          PRIMARY KEY  (`user_id`)
+        ) TYPE=MyISAM;
+      </query>
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__mamhoo_config` (
+          `id` int(11) NOT NULL,
+          `fieldname` varchar(255) NOT NULL,
+          `fieldlabel` varchar(255) NULL,
+          `fieldshow` char(1) NOT NULL default '0',
+          `fieldtype` varchar(255) NULL,
+          `fieldrequired` char(1) NULL default '0',
+          `fieldsize` int(11) NOT NULL default '30',
+          `fieldvalue` varchar(255) NULL,
+          PRIMARY KEY  (`id`)
+        ) TYPE=MyISAM;
+      </query>
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__mamhooks` (
+          `id` int(11) NOT NULL auto_increment,
+          `name` varchar(100) NOT NULL default '',
+          `element` varchar(100) NOT NULL default '',
+          `folder` varchar(100) NOT NULL default '',
+          `access` tinyint(3) unsigned NOT NULL default '0',
+          `ordering` int(11) NOT NULL default '0',
+          `published` tinyint(3) NOT NULL default '1',
+          `iscore` tinyint(3) NOT NULL default '0',
+          `client_id` tinyint(3) NOT NULL default '0',
+          `checked_out` int(11) unsigned NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `params` text NOT NULL,
+          PRIMARY KEY  (`id`),
+          KEY `idx_folder` (`published`,`client_id`,`access`,`folder`)
+        ) TYPE=MyISAM;
+      </query>
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__mamhoo_salt` (
+          `user_id` int(11) NOT NULL,
+          `password` varchar(100) NOT NULL default '',
+          `salt` varchar(100) NOT NULL default '',
+          `saltapp` varchar(100) NOT NULL default '',
+          PRIMARY KEY  (`user_id`)
+        ) TYPE=MyISAM;
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+  </uninstall>
+    <installfile>install.mamhoo.php</installfile>
+    <uninstallfile>uninstall.mamhoo.php</uninstallfile>
+  <administration>
+    <menu>Mamhoo</menu>
+    <submenu>
+      <menu task="">Mamhoo User Manager</menu>
+      <menu task="config">Mamhoo Config</menu>
+	  <menu task="install">Install/Uninstall Mamhooks</menu>
+      <menu task="about">About Mamhoo</menu>
+    </submenu>
+    <files>
+      <filename>admin.mamhoo.html.php</filename>
+      <filename>admin.mamhoo.php</filename>
+      <filename>toolbar.mamhoo.html.php</filename>
+      <filename>toolbar.mamhoo.php</filename>
+      <filename>mamhoo.class.php</filename>
+      <filename>install.mamhoo.php</filename>
+      <filename>uninstall.mamhoo.php</filename>
+      <filename>README.txt</filename>
+      <filename>INSTALL.txt</filename>
+	  <filename>index.html</filename>
+	  <filename>installer/index.html</filename>
+	  <filename>installer/mamhook.php</filename>
+	  <filename>installer/mamhook.html.php</filename>
+	  <filename>installer/mamhook.class.php</filename>
+    </files>
+</administration>
+</mosinstall>

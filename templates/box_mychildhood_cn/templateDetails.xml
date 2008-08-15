@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>box_mychildhood_cn</name>
+	<creationDate>01/08/05</creationDate>
+	<author>Magicbox(Ruth Chang)</author>
+	<copyright>GNU/GPL,all copyrights reserved by Magicbox(Ruth Chang).</copyright>
+	<authorEmail>cdhelp@canaan-design.com</authorEmail>
+	<authorUrl>http://canaan-design.com</authorUrl>
+	<version>1.0</version>
+	<description>box_mychildhood is two columns and Fixed width cartoon style template for Mambo4.5.1 :), for anyone who love cartoon and you can use it for your child too :)</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+	</files>
+	<images>
+		<filename>images/activemenu_bg.gif</filename>
+		<filename>images/arrow.png</filename>
+		<filename>images/bg.gif</filename>
+		<filename>images/bg_title.gif</filename>
+		<filename>images/contenthead.png</filename>
+		<filename>images/dh.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/index_r2_c1.gif</filename>
+		<filename>images/index_r2_c2.gif</filename>
+		<filename>images/index_r2_c3.gif</filename>
+		<filename>images/index_r2_c4.gif</filename>
+		<filename>images/index_r3_c5.gif</filename>
+		<filename>images/index_r4_c3.gif</filename>
+		<filename>images/index_r5_c1.gif</filename>
+		<filename>images/index_r7_c2.gif</filename>
+		<filename>images/menu_bg.gif</filename>
+		<filename>images/random_bg.gif</filename>
+		<filename>images/submenu_bg.gif</filename>
+		<filename>images/top.jpg</filename>
+		<filename>images/spacer.png</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

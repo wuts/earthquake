@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="4.5.2">
+	<name>box_windmill_cn</name>
+	<creationDate>06/14/2005</creationDate>
+	<author>Ruth Chang(Magicbox)</author>
+	<copyright>Copyright 2005 by Ruth Chang. Distribution prohibited!</copyright>
+	<authorEmail>cdhelp@gmail.com</authorEmail>
+	<authorUrl>www.canaan-design.com</authorUrl>
+	<version>1.0</version>
+	<description>3 columns, very clean and simple, bright colored, Variable width.</description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+	</files>
+	<images>
+		<filename>images/bg_hnavi.gif</filename>
+		<filename>images/bg_line.gif</filename>
+		<filename>images/bg_ltitle.gif</filename>
+		<filename>images/bg_navi.gif</filename>
+		<filename>images/iconpath.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/logo.gif</filename>
+		<filename>images/ul.gif</filename>
+		<filename>images/windwill.jpg</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

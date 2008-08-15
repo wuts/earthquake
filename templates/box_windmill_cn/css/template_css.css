@@ -1,0 +1,797 @@
+#clr {
+	clear:both;
+}
+
+.bg_main {
+	background		:url(../images/bg_line.gif);
+	padding			: 0; 
+	margin			: 0;
+	vertical-align	: top;
+	scrollbar-face-color: #ffffff;
+    scrollbar-shadow-color: #CBCDCE;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-highlight-color: #CBCDCE;
+    scrollbar-3dlight-color: #ffffff;
+    scrollbar-track-color: #ffffff;
+    scrollbar-arrow-color: #CBCDCE;
+}
+
+img {
+	border:0px
+}
+
+#blank {
+	height:20px;
+	width			:100%;
+	padding			:0;
+	margin			:0;
+	background-color:#ffffff;
+}
+
+/* *******************************************  logoarea*/
+#logo_area {
+	width			:100%;
+	padding			:0;
+	margin			:0;
+	background-color:#ffffff;
+	vertical-align  :bottom;
+	height			:50px;
+}
+
+#logo {
+	float:left;
+	padding:0;
+	margin:0;
+}
+
+#search {
+	float			: right;
+	margin			: 18px 20px 0px 0px;
+	padding			: 0px;
+	width			: 95px !important;
+	height			: 19px !important;
+	text-indent		: 8px;
+	text-align		: center;
+	font-family     : Arial, Verdana, Helvetica, sans-serif;
+	line-height		: 19px;
+}
+
+.searchbox {
+	font			: normal 12px Arial, Verdana, Helvetica, sans-serif;
+	color			: #A7A6A6;
+	text-indent		: 8px;
+	line-height		: 19px;
+	border			: 1px solid #EFF0F0;
+	width			: 150px;
+	height			: 20px;
+}
+
+/* *******************************************  header */
+#header {
+	background-color:#66CCFF;
+	width			:100%;
+	height			:145px;
+}
+
+#headerpic {
+	background	        :url(../images/windwill.jpg) no-repeat;
+	background-position :left top;
+	width				:100%;
+	height				:145px;
+}
+
+
+/* *******************************************  midarea */
+#midarea {
+	width			:100%;
+}
+
+/* ******************************************* main bottom */
+
+#botnavi table.moduletable {
+	width			: 100%;
+	padding			: 0px;
+	margin			: 0px 0px 0px 0px;
+	border			: 0;
+}
+
+#bottomarea {
+	margin:0;
+	line-height:18px;
+	text-align:left;
+}
+
+/* *******************************************  pathway */
+#can_pathway {
+	margin:0;
+	padding			: 0px;
+	width			: 100%;
+	height			: 30px;
+	text-indent		: 8px;
+	text-align		: left;
+	font		    : bold 12px Arial, Verdana, Helvetica, sans-serif;
+	color			: #00B4FF;
+}
+
+#can_pathway img {
+	margin:8px 1px 1px 1px;
+}
+
+.pathway {
+	padding			: 0px;
+	margin			: 0px 0px 0px 0px;
+	border			: 0;
+	line-height		: 30px;
+}
+
+a.pathway:link, a.pathway:visited {
+	color			: #333333;
+	font-size		: 12px;
+	line-height		: 18px;
+}
+a.pathway:hover {
+	color			: #00B4FF;
+}
+
+/* ******************************************* leftside */
+#leftmain {
+	margin: 0;
+	padding:0px;
+	text-align: left;
+	width: 100%;
+}
+
+#leftmain table.moduletable th, #rightmain table.moduletable th {
+	height:24px;
+	background:url(../images/bg_ltitle.gif) no-repeat;
+	background-position:left bottom;
+	border-bottom:1px solid #CBCDCE;
+	font : bold 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #333333;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 10px;
+	margin: 0px;
+	line-height:24px;
+}
+
+#leftmain table.moduletable td {
+	font : normal 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #666666;
+	text-align		: left;
+	padding			: 2px 0px 0px 0px;
+}
+
+/* ******************************************* main body */
+#main_area {
+	width: 99%;
+	margin: 0px 0px 5px 0px;
+	padding:0px 0px 0px 0px;
+	border: 0;
+	text-align: left;
+}
+
+/* ******************************************* flashnews and blocks */
+#newsflash {
+	margin: 0;
+	padding:0px;
+	width:100%;
+	border:0;
+}
+
+#newsflash table.moduletable {
+	padding			: 0;
+	margin			: 0;
+	border			: 0;
+}
+
+#newsflash table.moduletable th {
+	height:24px;
+	background:url(../images/bg_ltitle.gif) no-repeat;
+	background-position:left bottom;
+	border-bottom:1px solid #CBCDCE;
+	font : bold 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #333333;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 10px;
+	margin: 0px;
+	line-height:24px;
+}
+
+#newsflash table.moduletable td {
+	line-height		: 17px;
+	text-align		: left;
+	padding			: 2px 0px 2px 0px;
+}
+
+#blocks {
+	width:100%;
+	padding:0;
+	background-color:f9f9f9;
+	margin-bottom:10px;
+}
+
+/* ******************************************* Footer */
+#footer  {
+	padding			: 4px 0px 0px 0px;
+	margin			: 0;
+	width			: 100%;
+	text-align		: left;
+	vertical-align	: middle;
+	font			: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	color			: #A49881;
+	line-height		: 18px;
+}
+
+/* *******************************************  General CSS Styles  */
+
+.body {
+	background		: #ffffff; 
+	padding			: 0; 
+	margin			: 0;
+	vertical-align	: top;
+}
+
+td, div, p {
+	color:#666666;
+	font-family     : Arial, Verdana, sans-serif, Helvetica ;
+	font-size		: 12px;
+	padding:0px;
+	line-height:17px;
+}
+
+
+a, a:link, a:visited {
+	color			: #666666;
+	text-decoration	: none;
+}
+a:hover {color: #00B4FF; text-decoration:none}
+
+h1	{font: bold 16px Arial, Verdana, sans-serif, Helvetica;	color: #666; margin: 0px; padding: 0px;}
+h2	{font: bold 15px Arial, Verdana, sans-serif, Helvetica;	color: #666; margin: 0px; padding: 0px;}
+h3	{font: bold 14px Arial, Verdana, sans-serif, Helvetica;	color: #666; margin: 0px; padding: 0px;}
+h4	{font: bold 12px Arial, Verdana, sans-serif, Helvetica;	color: #666; margin: 0px; padding: 0px;}
+
+ol	{list-style: decimal outside; }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 17px;
+  text-indent: 18px;
+  padding-top: 0px;
+  background-image: url(../images/ul.gif) ;
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+}
+blockquote {
+	margin			: 10px;
+	margin-left		: 30px;
+	padding			: 0 20px 0 10px;
+	border-left		: 5px solid #ccc;
+}
+
+form { 
+	margin			: 0; 
+	padding			: 0;
+}
+select { 
+	font-size		: 12px; 
+	font-weight		: bold; 
+	color			: #555;
+}
+input {
+	padding			: 0;
+	margin			: 0;
+}
+
+th.pagenav_prev, th.pagenav_next, a.pagenav_next:link, a.pagenav_next:visited {
+	font-size		: 12px; 
+	color			: #666666;
+	background-color:#FFFFFF;
+	font-weight		: normal;
+}
+a.pagenav_next:hover {
+	font-size		: 12px; 
+	color			: #00B4FF; 
+	text-decoration	: none;
+}
+
+
+/* ******************************************* MODULES */
+table.moduletable {
+	width			: 100%;
+	padding			: 0px;
+	margin			: 0px 0px 0px 0px;
+	border	: 0;
+}
+table.moduletable th {
+	height:24px;
+	background:url(../images/bg_ltitle.gif) no-repeat;
+	background-position:left bottom;
+	border-bottom:1px solid #CBCDCE;
+	font : bold 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #333333;
+	text-align: left;
+	text-indent: 10px;
+	padding-top: 10px;
+	margin: 0px;
+	line-height:24px;
+}
+table.moduletable td  {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	color			: #666666;
+	text-align		: left;
+	padding			: 2px 0px 2px 0px;
+	margin			: 0px;
+	border			: 0;
+}
+
+table.pollstableborder td {
+	padding: 2px;
+	line-height:17px;
+}
+
+.moduletable a:link, .moduletable a:visited { 
+	color			: #666666; 
+	font-weight:bold;
+	font-size		: 12px;
+	font-family     : Verdana, Arial, sans-serif, Helvetica ;
+	text-decoration	: none;
+}
+.moduletable a:hover {
+	color			: #00B4FF; 
+	text-decoration	: none;
+}
+table.moduletable ul {
+	padding			: 0;
+	margin			: 0 0 0 3px;
+}
+
+.button {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	padding-top		: 2px 2px 0px 2px;
+	color			: #ffffff;
+	border  		: 0px;
+	background-color: #666666;
+}
+.inputbox, .search {
+	font			: normal 12px Arial, Helvetica, sans-serif;
+	color			: #666666;
+	border			: 1px solid #666666;
+}
+
+select.inputbox {
+	font			: bold 12px Arial, Helvetica, sans-serif;
+	color			: #666666;
+	border			: 1px solid #666666;
+}
+
+.poll {
+	font			: 11px Arial, Helvetica, sans-serif; 
+	color			: #666666; 
+	font-weight		: normal; 
+	border			: 0; 
+	padding			: 0;
+}
+
+/* ******************************************* CONTENT STYLES */
+.contentpane, .contentpaneopen {
+	text-align		: left;
+	color			: #666666; 
+	padding			: 0px;
+}
+
+.contentdescription {
+	width:100%;
+	text-align		: left;
+	color			: #666666; 
+	padding			: 0px;
+}
+
+.contentpaneopen td {
+	padding			: 3px 0px; 
+}
+
+.contentpane td, .contentdescription td {
+	padding			: 4px 0px; 
+}
+a.contentpane:link, a.contentpane:visited, a.contentpaneopen:link, a.contentpaneopen:visited {
+	color			: #00B4FF; 
+	text-decoration	: none
+}
+a.contentpane:hover, a.contentpaneopen:hover {
+	color			: #00B4FF; 
+	text-decoration	: none;
+}
+
+.contentheading {
+	background:url(../images/bg_ltitle.gif) no-repeat;
+	border-bottom:1px solid #CBCDCE;
+	height:24px;
+	font : bold 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #666666;
+	height:24px;
+	text-align		: left;
+	text-indent		: 10px;
+}
+
+.contentheading:first-letter {
+	color: #00B4FF;
+	font-size: 12px;
+	text-transform: uppercase !important;
+}
+
+.componentheading {
+    background-color: #B8E4FE;
+	height:25px;
+	font : bold 12px Arial, Verdana, sans-serif, Helvetica ;
+	color: #333333;
+	line-height:25px;
+	text-align		: left;
+	text-indent		: 5px;
+}
+
+
+.contentpagetitle, a.contentpagetitle:link, a.contentpagetitle:visited 	{
+	color			: #666666;
+}
+a.contentpagetitle:hover {
+	color			: #00B4FF;
+
+}
+.buttonheading {
+	font			: normal 12px Arial, Verdana, sans-serif, Helvetica;
+	white-space		: nowrap;	
+}
+
+.content_rating, .content_vote {
+	font-size		: 12px;	
+	color			: #666666; 
+	text-decoration	: none; 
+	font-weight		: normal; 
+	vertical-align	: middle; 
+	margin			: 0 6px; 
+	padding			: 0;
+}
+
+.back_button {
+	float:right;
+	width:55px;
+	font-size		: 12px;	
+	color			: #00B4FF; 
+	font-weight		: bold; 
+	text-align:right;
+	vertical-align	: middle; 
+	margin			: 0 6px; 
+	padding			: 1px 1px 1px 1px;
+	border:0;
+	background:url(../images/iconpath.gif) no-repeat;
+    background-position: 0px 6px;
+}
+
+.small 		{
+	font-size		: 12px; 
+	color			: #B2AAA7; 
+	font-weight		: normal;
+	line-height:14px;
+	height:14px;
+}
+
+.createdate, .modifydate {
+	font-size		: 10px; 
+	font-weight		: normal; 
+	color			: #B2AAA7;
+	height			:14px;
+	line-height		:14px;
+}
+
+a.readon:link, a.readon:visited {
+	font			: bold 12px Tahoma, Arial, Helvetica, sans-serif;
+	color			: #8E8480;
+    border           : 1px solid #E0E0E0;
+    padding          : 2px 4px 2px 2px;
+    white-space      : nowrap;
+    float            : left;
+    line-height      : 10px;
+    text-decoration  : none;
+}
+a.readon:hover {
+	color			: #00B4FF;
+	text-decoration	: none; 
+}
+
+.fase4rdf, a.fase4rdf:link, a.fase4rdf:visited {
+	font-size		: 12px; 
+	font-weight		: normal; 
+	color			: #666666;
+}
+a.fase4rdf:hover {
+	font-weight		: bold; 
+	color			: #00B4FF;
+}
+
+.blogsection {
+	background-color: #ffffff;
+}
+
+a.blogsection:link, a.blogsection:visited {
+	font-size		: 12px;
+	color			: #666666;
+	text-decoration	: none;
+	font-weight		: normal;
+	font-weight		: bolder;
+}
+a.blogsection:hover {
+	font-size		: 12px;
+	color			: #00B4FF; 
+	text-decoration	: underline;
+	font-weight		: bolder;
+}
+
+.ontab 	{
+	color			: #666666;
+	padding			: 2px 10px 2px 10px;
+	border-top		: 2px solid #345;
+	border-right	: 2px solid #345;
+	border-bottom	: 0;
+	border-left		: 2px solid #345;
+	font-weight		: bold;
+}
+.offtab {
+	color			: #666;
+	padding			: 2px 10px 2px 10px;
+	border-top		: 1px solid #666;
+	border-right	: 1px solid #666;
+	border-bottom	: 3px solid #345;
+	border-left		: 1px solid #666;
+	cursor			: default;
+}
+.tabpadding {
+	border-bottom	: 3px solid #666;
+}
+	
+table.searchintro {
+	background		: #fff;
+	margin			: 0  5px;
+	width			: 100%;
+	border-bottom	: 1px solid #fff;
+}
+table.searchintro td {
+	padding			: 5px;
+	border			: 0;
+	border-bottom	: 1px solid #fff;
+}
+
+.blog {
+	margin			: 0px;
+	padding			: 0px;
+	width			:100%;
+}
+
+.blog_more {
+	width			: 100%;
+	padding			: 4px;
+	margin			: 0px;
+	font-size		: 12px;
+	font-weight		: bold;
+	color			: #666666;
+	background-color: #F9F9F9;
+}
+.blog_more ul {
+	padding			: 0px;
+	margin			: 0px;
+}
+
+table.contenttoc {
+	border			: 1px solid #eeeeee;
+ 	padding			: 1px;
+	margin-left		: 7px;
+	margin-bottom	: 2px;
+}
+table.contenttoc th {
+	color			: #666666;
+	text-align		: left;
+	padding			: 4px;
+	font-weight		: bold;
+	font-size		: 12px;
+	text-transform	: uppercase;
+	background		: #eeeeee;
+}
+table.contenttoc td {
+	font-size		: 10px;
+}
+
+
+/* ******************************************* STYLES CONTACT PAGE */
+table.contact {
+	background		: transparent;
+}
+table.contact td.icons {
+	background		: #89a;
+}
+table.contact td.details {
+	background		: #FFFBF2;
+	margin			: 5px;
+	padding			: 5px;
+	border			: 1px dotted #ccc;
+}
+.contact_email {
+	background		: #f7f7f7;
+	margin			: 5px;
+	padding			: 5px;
+	border			: 0;
+}
+textarea.inputbox {
+	width:95%;
+}
+
+/* ******************************************* MAIN AND SUB MENU SYSTEM  */
+.mainlevel {
+	font		: bold 12px Arial, Verdana, Helvetica, sans-serif;
+	line-height:20px;
+}
+a.mainlevel:link, a.mainlevel:visited {
+	padding-right: 10px;
+	border	: 0;
+	background		: url(../images/bg_navi.gif) no-repeat;
+	display: block;
+	height:28px;
+	font		: normal 12px Arial, Verdana, Helvetica, sans-serif;
+	color			: #595959; 
+	text-decoration	: none;
+	text-align	: right;
+	line-height:24px;
+}
+a.mainlevel:hover {
+	color			: #00B4FF; 
+	background		: url(../images/bg_hnavi.gif) no-repeat;
+	text-decoration	: none;
+}
+#active_menu {
+	background		: url(../images/bg_hnavi.gif) no-repeat;
+	color			: #00B4FF; 
+	font-weight	: normal;
+}
+
+a.sublevel:link, a.sublevel:visited {
+	color			: #333333;
+	text-decoration	: none;
+	padding-left: 1px;
+	vertical-align: middle;
+	text-align: left;
+	font-weight:bold;
+}
+a.sublevel:hover {
+	color			: #00B4FF;
+	text-decoration	: none;
+	font-weight:bold;
+}
+
+a.sublevel#active_menu  {
+	border			: 0;
+	color           : #00B4FF;
+	text-decoration	: none;
+	background		: #ffffff;
+	font-weight:bold;
+}
+
+/* ******************************************* TOP MENU SYSTEM  */
+ul#mainlevel-nav
+{
+	font			: bold 12px Arial, Verdana, Helvetica, sans-serif;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+ }
+
+ul#mainlevel-nav li
+{
+	display: block;
+	background: transparent;
+	padding: 0px;
+	float: right;
+	margin: 0;
+	width: auto !important;
+    width: 30px;
+	font-size: 12px;
+	line-height: 21px;
+	white-space: nowrap;
+	border: 0;
+}
+
+ul#mainlevel-nav li a:link, ul#mainlevel-nav li a:visited {
+	display: block;
+	padding: 0px 10px;
+	text-decoration: none;
+	color: #666666;
+	background: transparent;
+}
+
+ul#mainlevel-nav li a:hover
+{
+	color: #00B4FF;
+	background: transparent;
+}
+
+/* ******************************************* CATEGORY (text format and links) */
+.category {
+	color			: #666666;
+	font-size		: 12px;
+	font-weight		: bold;
+	text-decoration	: none;
+	}
+a.category:link, a.category:visited {
+	color			: #666666;
+	font-weight		: bold;
+}
+a.category:hover {
+	color			: #00B4FF;
+}
+	
+/* ******************************************* STYLES LISTING CONTENT PAGE */
+td.sectiontableheader {
+	background-color: #F0F0F0; 
+	color			: #333333; 
+	font-weight		: bold;
+	font-size		: 11px;
+	padding			: 2px 3px 3px 2px;
+	border-bottom	: 1px solid #999999;
+}
+td.sectiontablefooter {
+	background-color: #F0F0F0; 
+	color			: #333333; 
+	font-weight		: bold;
+	font-size		: 12px;
+	padding			: 2px 3px 3px 2px;
+	border-top	: 1px solid #999999;
+}
+.sectiontableentry1  {
+	background-color: #ffffff; 
+	color			: #666666; 
+	font-weight		: normal; 
+	padding			: 2px 0px 2px 2px;
+}
+.sectiontableentry2  {
+	background		: #F7F7F7; 
+	color			: #666666; 
+	font-weight		: normal; 
+	padding			: 2px 0px 2px 2px;
+}
+
+.pagenavbar {
+	text-align		: center;
+	vertical-align	: middle;
+	padding			: 2px;
+	width			: 100%;
+}
+.pagenav {
+	color			: #666666;
+	font-size		: 10px;
+	font-weight		: bold;
+	text-decoration	: none;
+	marging			: 0;
+	padding			: 0 2px;
+	border			: 0;
+}
+a.pagenav:link, a.pagenav:visited  {
+	color 			: #666666; 
+	background-color: transparent;
+}
+a.pagenav:hover {
+	color			: #00B4FF; 
+	background		: transparent; 
+	text-decoration	: underline;
+}
+
+
+hr {
+	background		: transparent; 
+	height			: 1px; 
+	border			: 1px solid #EBEBEB; 
+	width			: 100%;
+}

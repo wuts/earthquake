@@ -1,0 +1,255 @@
+<?xml version="1.0" ?>
+<!--  $Id: mambofck.xml,v 1.0 2007/06/12 21:59:10 lang3 Exp $ -->
+<mosinstall version="5.1" type="mambot" group="editors">
+    <name>MamboFCK</name>
+    <version>1.0</version>
+    <creationDate>2007-06-12</creationDate>
+    <author>Claudiu Cristea, lang3</author>
+    <authorEmail>lang3@mambochina.net</authorEmail>
+    <authorUrl>http://www.grafitsolutions.ro/</authorUrl>
+    <copyright>(c)2006 Grafit SRL. All rights reserved.</copyright>
+    <license>LGPL Version 2.1 [http://www.gnu.org/licenses/lgpl.html]</license>
+    <description>MamboFCK is a mambot designed to add FCKeditor [http://www.fckeditor.net/] functionality to Mambo.</description>
+	<params/>
+<!--
+	<params>
+		<param name="s:SkinPath" type="list" default="default" label="Choose skin" description="Choose the skin of the editor. This will change the look of the editor.">
+			<option value="default">Default</option>
+			<option value="office2003">Office 2003</option>
+			<option value="silver">Silver</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="AutoDetectLanguage" type="list" default="1" label="Auto-detect language" description="The editor try to detect the user language acording to the client browser settings.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="s:DefaultLanguage" type="list" default="default" label="Default language" description="Default language used to display the editor.">
+			<option value="default">Use Mambo Settings</option>
+			<option value="ar">Arabic</option>
+			<option value="eu">Basque</option>
+			<option value="bn">Bengali/Bangla</option>
+			<option value="bs">Bosnian</option>
+			<option value="bg">Bulgarian</option>
+			<option value="ca">Catalan</option>
+			<option value="zh-cn">Chinese Simplified</option>
+			<option value="vi">Chinese Traditional</option>
+			<option value="zh">Chinese Traditional</option>
+			<option value="hr">Croatian</option>
+			<option value="cs">Czech</option>
+			<option value="da">Danish</option>
+			<option value="nl">Dutch</option>
+			<option value="en-au">English (Australia)</option>
+			<option value="en-ca">English (Canadian)</option>
+			<option value="en-uk">English (United Kingdom)</option>
+			<option value="en">English</option>
+			<option value="eo">Esperanto</option>
+			<option value="et">Estonian</option>
+			<option value="fo">Faroese</option>
+			<option value="fi">Finnish</option>
+			<option value="fr">French</option>
+			<option value="gl">Galician</option>
+			<option value="de">German</option>
+			<option value="el">Greek</option>
+			<option value="he">Hebrew</option>
+			<option value="hi">Hindi</option>
+			<option value="hu">Hungarian</option>
+			<option value="it">Italian</option>
+			<option value="ja">Japanese</option>
+			<option value="km">Khmer</option>
+			<option value="ko">Korean</option>
+			<option value="lv">Latvian</option>
+			<option value="lt">Lithuanian</option>
+			<option value="ms">Malay</option>
+			<option value="mn">Mongolian</option>
+			<option value="no">Norwegian</option>
+			<option value="fa">Persian</option>
+			<option value="pl">Polish</option>
+			<option value="pt-br">Portuguese (Brazilian)</option>
+			<option value="pt">Portuguese</option>
+			<option value="ro">Romanian</option>
+			<option value="ru">Russian</option>
+			<option value="sr">Serbian (Cyrillic)</option>
+			<option value="sr-latn">Serbian (Latin)</option>
+			<option value="sk">Slovak</option>
+			<option value="sl">Slovenian</option>
+			<option value="es">Spanish</option>
+			<option value="sv">Swedish</option>
+			<option value="th">Thai</option>
+			<option value="tr">Turkish</option>
+			<option value="uk">Ukrainian</option>
+		</param>
+		<param name="s:ContentLangDirection" type="list" default="ltr" label="Language direction" description="Choose the direction for the selected language.">
+			<option value="ltr">Left to right</option>
+			<option value="rtl">Right to left</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ProcessHTMLEntities" type="list" default="1" label="Process HTML entities" description="Specifies that the editor must convert all special characters available in the text to their relative HTML entities, as defined by the W3C standards. The complete list of entities can be found here: http://www.htmlhelp.com/reference/html40/entities/.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="IncludeLatinEntities" type="list" default="1" label="Include latin entities" description="You can use this setting to exclude some characters for the conversion. The complete list of entities can be found here: http://www.htmlhelp.com/reference/html40/entities/.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="IncludeGreekEntities" type="list" default="1" label="Include greek entities" description="You can use this setting to exclude some characters for the conversion. The complete list of entities can be found here: http://www.htmlhelp.com/reference/html40/entities/.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="FillEmptyBlocks" type="list" default="1" label="Fill empty blocks" description="This setting tells FCKeditor to insert the non-breaking space entity (&#038; &#110; &#098; \s \p \;) into empty table cells. It is set to \'Yes\' by default. Setting it to \'No\' will disable this behavior.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="FormatSource" type="list" default="1" label="Format source" description="When set to \'Yes\' the editor will format the XHTML when switching from WYSIWYG view to Source view, by inserting line breaks on some tags endings and indenting paragraphs, tables and lists. ">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="FormatOutput" type="list" default="1" label="Format output" description="When set to \'Yes\' the editor will format the XHTML output by inserting line breaks on some tags endings and indenting paragraphs, tables and lists.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+ 		<param name="FormatIndentator" type="list" default="'    '" label="Format indentator" description="This is the indentation string used by the editor when formatting the XHTML output (see FormatOutput and FormatSource). Normal values are four spaces (\'    \'), tab (\'\\t\') and single space (\' \').">
+			<option value="'    '">Four spaces</option>
+			<option value="' '">Single space</option>
+			<option value="'\t'">Tab character</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ForceStrongEm" type="list" default="1" label="Use &lt;EM&gt;, &lt;STRONG&gt;" description="Setting it to \Yes\' will make the editor produce STRONG and EM tags, instead of B and I. This is related to the different approach each browser has. Setting it to \'No\' will leave the original browser specific implementation, so Firefox will produce B and I while IE, STRONG and EM.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="GeckoUseSPAN" type="list" default="0" label="Force Geko browser to use &lt;SPAN&gt; for bold, italic and underline" description="Firefox has a built in configuration that makes it possible to use SPAN tags for bold, italic and underline, instead of the common B, I and U tags. This is not recommended as it generates different output than IE, but users can enable it by setting this option to \'Yes\'.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ForcePasteAsPlainText" type="list" default="0" label="Paste as text" description="Force the editor to strip the tags when paste in the editor area.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="AutoDetectPasteFromWord" type="list" default="1" label="Detect when paste from Word" description="This is available only in IE. Detect when the text is paste from MS Word.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ForceSimpleAmpersand" type="list" default="0" label="Force simple ampersand" description="Force the editor to save the \ampersand as a simple character not as a HTML entity.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+ 		<param name="TabSpaces" type="text" default="0" label="Tab spaces" description="This FCKConfig parameter is not documented  FCK editor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="ShowBorders" type="list" default="1" label="Show borders" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="SourcePopup" type="list" default="0" label="Show source in a popup window" description="Force the editor to show the HTML source in a popup window instead on the editor area.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="UseBROnCarriageReturn" type="list" default="0" label="Use &lt;BR&gt; on carriage return" description="This works only on IE. Force the editor to use BR tag when the user press ENTER.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ToolbarStartExpanded" type="list" default="1" label="Toolbar start expanded" description="Control if the toolbar is expanded or collapsed when the editor in displayed in the browser.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ToolbarCanCollapse" type="list" default="1" label="Toolbar can collapse" description="Control if the toolbar have the abillity to collapse.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="IgnoreEmptyParagraphValue" type="list" default="1" label="Ignore empty paragraph value" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="PreserveSessionOnFileBrowser" type="list" default="0" label="Preserve session on file browser" description="This setting makes it possible to preserve the server side session of the page containing the editor in the File Browser window. In this way it is possible to create custom File Browser implementations that may use sessions saved data. This is an IE specific issue. Other browsers will always use the main session. The drawback of enabling this setting is that popup blockers could block the editor to open the File Browser window and so the user will have to enable popups in the site (well... not a big issue).">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="FloatingPanelsZIndex" type="text" default="10000" label="Floating panels Z index" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ToolbarSet" type="textarea" rows="6" cols="32" default="[
+['Undo','Redo'],
+['Cut','Copy','Paste','PasteText','PasteWord'],
+['Bold','Italic','Underline','StrikeThrough','-','Subscript','Superscript','-','OrderedList','UnorderedList','-','Outdent','Indent'],
+['JustifyLeft','JustifyCenter','JustifyRight','JustifyFull'],
+'/',
+['Link','Unlink','Anchor'],
+['Image','Flash','Table','Rule','Smiley','SpecialChar','UniversalKey'],
+['TextColor','BGColor'],
+['mosimage', 'mospage'],
+['Source','About']
+]" label="Toolbar definition" description="Define the toolbar used by FCKeditor. See http://wiki.fckeditor.net/Developer%27s_Guide/Configuration/Toolbar to find how to define the toolbar."/>
+		<param name="ContextMenu" type="text" default="['Generic','Link','Anchor','Image','Flash','BulletedList','NumberedList','Table']" label="Context menu" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="s:FontColors" type="text" default="000000,993300,333300,003300,003366,000080,333399,333333,800000,FF6600,808000,808080,008080,0000FF,666699,808080,FF0000,FF9900,99CC00,339966,33CCCC,3366FF,800080,999999,FF00FF,FFCC00,FFFF00,00FF00,00FFFF,00CCFF,993366,C0C0C0,FF99CC,FFCC99,FFFF99,CCFFCC,CCFFFF,99CCFF,CC99FF,FFFFFF" label="Font colors palette" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="s:FontNames" type="text" default="Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana" label="Font names" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="s:FontSizes" type="text" default="1/xx-small;2/x-small;3/small;4/medium;5/large;6/x-large;7/xx-large" label="Font sizes" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="s:FontFormats" type="text" default="p;div;pre;address;h1;h2;h3;h4;h5;h6" label="Font formats" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="SpellChecker" type="list" default="'ieSpell'" label="Spell checker" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="'ieSpell'">ieSpell</option>
+			<option value="'SpellerPages'">SpellerPages</option>
+		</param>
+		<param name="s:IeSpellDownloadUrl" type="text" default="http://iespell.huhbw.com/ieSpellSetup220647.exe" label="ieSpell download URL" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="MaxUndoLevels" type="text" default="15" label="Max undo levels" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations."/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="DisableObjectResizing" type="list" default="0" label="Disable object resizing" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="DisableFFTableHandles" type="list" default="1" label="Disable FireFox table handles" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="LinkDlgHideTarget" type="list" default="0" label="Hide target in link dialog" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="LinkDlgHideAdvanced" type="list" default="0" label="Hide advanced tab in link dialog" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="ImageDlgHideLink" type="list" default="0" label="Hide link tab in image dialog" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ImageDlgHideAdvanced" type="list" default="0" label="Hide advanced tab in image dialog" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="FlashDlgHideAdvanced" type="list" default="0" label="Hide advanced tab in flash dialog" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="LinkBrowser" type="list" default="1" label="Use the link browser" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ImageBrowser" type="list" default="1" label="Use the image browser" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="FlashBrowser" type="list" default="1" label="Use the flash browser" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="LinkUpload" type="list" default="1" label="Allow link upload" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="ImageUpload" type="list" default="1" label="Allow image upload" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="FlashUpload" type="list" default="1" label="Allow flash upload" description="This FCKConfig parameter is not documented by FCKeditor. Check http://wiki.fckeditor.net/FCKeditor for future explanations.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+ 	</params>
+-->
+</mosinstall>

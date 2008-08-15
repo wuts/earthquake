@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mosinstall version="5.0.0" type="language">
+	<name>Simplified Chinese UTF-8</name>
+	<version>5.3.0</version>
+	<creationDate>2007-12-23</creationDate>
+	<author>lang3</author>
+	<authorEmail>lang3@mambochina.net</authorEmail>
+	<files>
+		<filename>simplified_chinese_utf-8.php</filename>
+		<filename>admin_simplified_chinese_utf-8.php</filename>
+	</files>
+</mosinstall>

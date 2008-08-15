@@ -1,0 +1,67 @@
+                     -1534660208<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://news.mamboserver.com">
+        <title>from News.Mamboserver.com</title>
+        <description>News of interest to the Mambo Community wordlwide.</description>
+        <link>http://news.mamboserver.com</link>
+        <image rdf:resource="http://news.mamboserver.com/images/M_images/mambo_rss.png" />
+       <dc:date>2008-04-20T03:10:33+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2779&amp;Itemid=78"/>
+                <rdf:li rdf:resource="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2777&amp;Itemid=2"/>
+                <rdf:li rdf:resource="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2774&amp;Itemid=68"/>
+                <rdf:li rdf:resource="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2773&amp;Itemid=2"/>
+                <rdf:li rdf:resource="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2770&amp;Itemid=2"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://news.mamboserver.com/images/M_images/mambo_rss.png">
+        <title>Powered by Mambo 4.5.2</title>
+        <link>http://news.mamboserver.com</link>
+        <url>http://news.mamboserver.com/images/M_images/mambo_rss.png</url>
+    </image>
+    <item rdf:about="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2779&amp;Itemid=78">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://news.mamboserver.com</dc:source>
+        <title>New additions at the Mambo Template Gallery</title>
+        <link>http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2779&amp;Itemid=78</link>
+        <description>SiteGround.com (http://www.siteground.com/)
+recently released several new free templates for the Template
+Gallery at MamboServer.com (http://templates.mamboserver.com/). The templates are created by the new
+designer...</description>
+    </item>
+    <item rdf:about="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2777&amp;Itemid=2">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://news.mamboserver.com</dc:source>
+        <title>The Joomla Shop - Grand Opening</title>
+        <link>http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2777&amp;Itemid=2</link>
+        <description>The Joomla Shop (http://thejoomlashop.com) has arrived.  Now you can submit your requests for custom Joomla! extensions and the Joomla...</description>
+    </item>
+    <item rdf:about="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2774&amp;Itemid=68">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://news.mamboserver.com</dc:source>
+        <title>Our New Exciting Template in This New Year Only For Our Prized Customers.</title>
+        <link>http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2774&amp;Itemid=68</link>
+        <description>The site ThemesClub.com (http://www.Themesclub.com ) provides business templates. The site has been successfully helping webmasters by offering premium quality themes...</description>
+    </item>
+    <item rdf:about="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2773&amp;Itemid=2">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://news.mamboserver.com</dc:source>
+        <title>SCALE Announces 2008 Speaker Line Up</title>
+        <link>http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2773&amp;Itemid=2</link>
+        <description>SCALE (http://www.socallinuxexpo.org) has announced its speaker line up for 2008.  Speakers will include Don Marti, Josh Berkus (Postgres), Bdale...</description>
+    </item>
+    <item rdf:about="http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2770&amp;Itemid=2">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://news.mamboserver.com</dc:source>
+        <title>New Persian Download Section</title>
+        <link>http://news.mamboserver.com/index.php?option=com_content&amp;task=view&amp;id=2770&amp;Itemid=2</link>
+        <description>Mambolearn (http://www.mambolearn.com/) team established a new download section (http://www.mambo-digg.com/) as a trial, in order to optimize its different sections for...</description>
+    </item>
+</rdf:RDF>

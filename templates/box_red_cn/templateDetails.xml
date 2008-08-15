@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>box_red_cn</name>
+	<creationDate>12/15/04</creationDate>
+	<author>Magicbox(Ruth Chang)</author>
+	<copyright>GNU/GPL,all copyrights reserved by Magicbox(Ruth Chang).</copyright>
+	<authorEmail>cdhelp@canaan-design.com</authorEmail>
+	<authorUrl>http://canaan-design.com</authorUrl>
+	<version>1.0</version>
+	<description>Box red is a stylish red and white template. The clean design of this template makes it very lightweight and fast.  </description>
+	<files>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+
+		<filename>css/index.html</filename>
+		<filename>images/index.html</filename>
+	</files>
+	<images>
+		<filename>images/arrow.png</filename>
+		<filename>images/bg.gif</filename>
+		<filename>images/bg_bomedge.gif</filename>
+		<filename>images/bg_ctitle.gif</filename>
+		<filename>images/bg_flash.jpg</filename>
+		<filename>images/bg_flash2.jpg</filename>
+		<filename>images/bg_left.gif</filename>
+		<filename>images/bg_navi.gif</filename>
+		<filename>images/bg_right.gif</filename>
+		<filename>images/bg_subtitle.gif</filename>
+		<filename>images/bg_title.gif</filename>
+		<filename>images/bg_topedge.gif</filename>
+		<filename>images/corner_bom1.gif</filename>
+		<filename>images/corner_bom1a.gif</filename>
+		<filename>images/corner_bom2.gif</filename>
+		<filename>images/corner_bom2a.gif</filename>
+		<filename>images/corner_top1.gif</filename>
+		<filename>images/corner_top2.gif</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/label2.gif</filename>
+		<filename>images/logo.jpg</filename>
+		<filename>images/menu_bullet.gif</filename>
+		<filename>images/pic_justsimple.gif</filename>
+		<filename>images/rating_star.png</filename>
+		<filename>images/spacer.png</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

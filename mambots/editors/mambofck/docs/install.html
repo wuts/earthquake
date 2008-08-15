@@ -1,0 +1,78 @@
+<!-- $Id: install.html,v 1.2 2006/09/16 18:50:28 cristea Exp $ -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Installing MamboFCK</title>
+<meta name="author" content="Claudiu Cristea">
+<link rel="stylesheet" href="http://mamboxchange.com/docman/view.php/2236/425/mambofck_styles.css" type="text/css" />
+</head>
+<body>
+<code>$Id: install.html,v 1.2 2006/09/16 18:50:28 cristea Exp $</code>
+<hr />
+<h1>MamboFCK Installation</h1>
+<h2>Getting the mambot</h2>
+<p>The first thing you need is the MamboFCK package. Download the package from: <a href="http://mamboxchange.com/projects/fck/">http://mamboxchange.com/projects/fck/</a></p>
+<h2>Unpack MamboFCK</h2>
+<p>Unpack the package to the editors mambots. This is usually <b>&lt;Mambo directory&gt;/mambots/editors/</b>.</p>
+<p>You should see in <b>&lt;Mambo directory&gt;/mambots/editors/</b> this three new items:</p>
+<ul>
+<li><b>mambofck</b> [directory]: this will hold the FCKeditor engine (sub-directory: FCKeditor), the mambo plugin for FCKeditor (sub-directory: mambofck), the documentation (sub-directory: docs) and the customized configuration file (file: mambofck_config.js)</li>
+<li><b>mambofck.xml</b> [XML file]: this is the MamboFCK mambot definition file (see Mambo documentation to understand this file structure)</li>
+<li><b>mambofck.php</b> [PHP file]: this is the MamboFCK mambot engine</li>
+</ul>
+<p>MamboFCK directory structure:</p>
+<div style="border:1px solid silver;background:#fafafa;">
+<div style="margin:10px 10px 10px 10px;">
+<code style="display:block;">
+&lt;Mambo directory&gt; [$mosConfig_live_site]<br />
+&nbsp;|<br />
+&nbsp;+-mambots/<br />
+&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;+-editors/<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>mambofck.xml</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;MamboFCK mambot definition file.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>mambofck.php</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;MamboFCK mambot engine.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>mambofck/</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>FCKeditor/</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;Original FCKeditor Directory.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>mambofck/</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;MamboFCK Plugin. This plugin add the buttons for<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;{mosimage} and {mospage} in FCKeditor toolbar.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>docs/</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;MamboFCK documentation.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+-<b>mambofck_config.js</b><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customized configuration file for FCKeditor.<br />
+</code>
+</div>
+</div>
+<h2>Check file permisionss</h2>
+<p>MamboFCK need to have write access to these three files:</p>
+<ul>
+<li><b>&lt;Mambo directory&gt;/mambots/editors/mambofck/mambo_config.js</b></li>
+<li><b>&lt;Mambo directory&gt;/mambots/editors/mambofck/FCKeditor/editor/filemanager/browser/default/connectors/php/config.php</b></li>
+<li><b>&lt;Mambo directory&gt;/mambots/editors/mambofck/FCKeditor/editor/filemanager/browser/upload/php/config.php</b></li>
+</ul>
+<p>Usualy you must CHMOD these files to 646.</p>
+<h2>Add the mambot from Mambo administrative area</h2>
+<p>In Mambo administrative area select from top menu <b>Mambots</b> &gt; <b>Site Mambots</b>. Click <b>New</b> from top-right menu.</p>
+<p>Fill the <b>Mambot Details</b> form with the following values:</p>
+<ul>
+<li><b>Name:</b> Type a name here. Ex: 'FCKeditor WYSIWYG'.</li>
+<li><b>Folders:</b> Select 'editors'.</li>
+<li><b>Mambot file:</b> Type 'fck'. Do not type the PHP extension, it will be added by default.</li>
+<li><b>Mambot order:</b> You cannot set anything here in this phase.</li>
+<li><b>Access level:</b> Select 'Public'.</li>
+<li><b>Published:</b> Select 'Yes' if you want to make available FCKeditor in Mambo.</li>
+</ul>
+<hr />
+<code>$Id: install.html,v 1.2 2006/09/16 18:50:28 cristea Exp $</code>
+</body>
+</html>
